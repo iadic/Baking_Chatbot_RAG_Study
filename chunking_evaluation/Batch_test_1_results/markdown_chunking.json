@@ -1,0 +1,908 @@
+[
+    {
+        "dialogue_id": 1,
+        "turns": [
+            {
+                "user_utterance": "Hi! My name is John.",
+                "ground_truth": "Hi John! It's great to meet you. How can I help you with baking today?",
+                "system_response": "Hi John! Nice to meet you. How can I help with baking today?",
+                "ideal_chunk": "NA",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "53",
+                        "similarity_score": 0.15
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.14
+                    },
+                    {
+                        "chunk_id": "35",
+                        "similarity_score": 0.13
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.12
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:01:56.357378Z"
+            },
+            {
+                "user_utterance": "I don't know anything about baking or where to start but I would love to learn the skill!!!",
+                "ground_truth": "That’s great to hear! A good way to start baking is by learning a few fundamental techniques like mixing, kneading, and proofing. Being aware of common pitfalls (such as overmixing or underproofing) will also help you avoid frustration. Try beginning with simple recipes like basic breads, cakes, cookies, or pastries to build your confidence and skills. Would you like me to suggest some easy recipes?",
+                "system_response": "Hi John! Great goal. Here’s where to start based on basic baking guidance:\n\n- Start with simple recipes to build confidence: basic bread, cake, cookie, and pastry recipes.\n- Focus on fundamental techniques: mixing, kneading, and proofing.\n- Pay attention to measuring correctly.\n- Be aware of common pitfalls: overmixing or underproofing.\n- Remember that with the right ingredients and equipment, baking can be approachable and you’ll be whipping up delicious treats in no time.",
+                "ideal_chunk": "Fundamental Techniques: Mastering basic techniques such as mixing, kneading, and proofing will help you produce consistent and delicious baked goods. \n Avoid Common Pitfalls: Awareness of common mistakes, like overmixing or underproofing, will save you from many frustrating outcomes.\n Start with Simple Recipes: Begin your journey with basic bread, cake, cookie, and pastry recipes that build your confidence and skills.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "32",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.42
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:02:14.582672Z"
+            },
+            {
+                "user_utterance": "That's good to know! Give me a recipe with chocolate and that I can make using my microwave.",
+                "ground_truth": "Here's a super easy chocolate mug cake recipe you can start with! These are the ingredients you will need: \n\n**Prep Time:**  \n5 mins  \n**Cook Time:**  \n2 mins  \n**Total Time:**  \n7 mins  \n**Servings:**  \n1  \n\n**Ingredients:**  \n¼ cup all-purpose flour  \n¼ cup white sugar  \n2 tablespoons unsweetened cocoa powder  \n⅛ teaspoon baking soda  \n⅛ teaspoon salt  \n3 tablespoons milk  \n2 tablespoons canola oil  \n1 tablespoon water  \n¼ teaspoon vanilla extract \n Here are the steps: \n1) Gather all ingredients.  \n2) Mix flour, sugar, cocoa powder, baking soda, and salt together in a large microwave-safe mug; stir in milk, canola oil, water, and vanilla extract.  \n3) Cook in the microwave until cake is done in the middle, about 1 minute 45 seconds.  \n4) Enjoy! ",
+                "system_response": "Easy Microwave Chocolate Mug Cake\n\nIngredients:\n- ¼ cup all-purpose flour\n- ¼ cup white sugar\n- 2 tablespoons unsweetened cocoa powder\n- ⅛ teaspoon baking soda\n- ⅛ teaspoon salt\n- 3 tablespoons milk\n- 2 tablespoons canola oil\n- 1 tablespoon water\n- ¼ teaspoon vanilla extract\n\nMethod:\n1) Gather all ingredients.\n2) Mix flour, sugar, cocoa powder, baking soda, and salt together in a large microwave-safe mug; stir in milk, canola oil, water, and vanilla extract.\n3) Cook in the microwave until cake is done in the middle, about 1 minute 45 seconds.\n4) Enjoy!",
+                "ideal_chunk": [
+                    "## Easy Microwave Chocolate Mug Cake Ingredients \n**Prep Time:**  \n5 mins  \n**Cook Time:**  \n2 mins  \n**Total Time:**  \n7 mins  \n**Servings:**  \n1  \n\n**Ingredients:**  \n¼ cup all-purpose flour  \n¼ cup white sugar  \n2 tablespoons unsweetened cocoa powder  \n⅛ teaspoon baking soda  \n⅛ teaspoon salt  \n3 tablespoons milk  \n2 tablespoons canola oil  \n1 tablespoon water  \n¼ teaspoon vanilla extract  ",
+                    "## Easy Microwave Chocolate Mug Cake Method\n1) Gather all ingredients.  \n2) Mix flour, sugar, cocoa powder, baking soda, and salt together in a large microwave-safe mug; stir in milk, canola oil, water, and vanilla extract.  \n3) Cook in the microwave until cake is done in the middle, about 1 minute 45 seconds.  \n4) Enjoy!"
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "4",
+                        "similarity_score": 0.6
+                    },
+                    {
+                        "chunk_id": "6",
+                        "similarity_score": 0.6
+                    },
+                    {
+                        "chunk_id": "5",
+                        "similarity_score": 0.59
+                    },
+                    {
+                        "chunk_id": "16",
+                        "similarity_score": 0.45
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:02:32.810636Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 2,
+        "turns": [
+            {
+                "user_utterance": "What’s the thing called where you fold butter into dough over and over?",
+                "ground_truth": "That technique is called lamination. It’s how pastries like croissants get their flaky layers.",
+                "system_response": "It’s called lamination. Lamination refers to the process of butter and dough being repeatedly rolled and folded together. This creates increasingly thinner alternating layers of butter and dough, and, when baked, the water in the butter turns to steam to form distinct layers, yielding a flaky pastry.",
+                "ideal_chunk": "## Lamination what is it? Lamination refers to the process of butter and dough being repeatedly rolled and folded together. This technique creates increasingly thinner alternating layers of butter and dough. When the dough is baked, the water within the butter turns into steam, separating the dough and forming distinct layers. The result is a flaky, buttery pastry with a light interior and a crispy, golden-brown exterior.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "34",
+                        "similarity_score": 0.62
+                    },
+                    {
+                        "chunk_id": "33",
+                        "similarity_score": 0.59
+                    },
+                    {
+                        "chunk_id": "62",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "36",
+                        "similarity_score": 0.45
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:02:41.615333Z"
+            },
+            {
+                "user_utterance": "Can you explain it step by step?",
+                "ground_truth": "Sure! Lamination is the process of creating thin, distinct layers of butter and dough that puff apart when baked. It begins with preparing a dough block—usually rested so the gluten relaxes—and a butter block that is soft enough to be pliable but still cool and firm. The butter is enclosed inside the dough during the “lock-in,” forming a single package. This dough-and-butter packet is then repeatedly rolled out, folded, chilled, and turned. Each cycle, known as a “turn,” stretches the dough, keeps the butter in separate sheets, and multiplies the number of layers. Resting between turns prevents the butter from melting and keeps the gluten from tightening. After the desired number of turns, the dough contains many thin, intact layers; when baked, the water in the butter turns to steam and expands, lifting those layers into the flaky structure characteristic of croissants, puff pastry, and other laminated doughs.",
+                "system_response": "Here it is, step by step, based on the lamination guide:\n\n1) Make the dough block: The dough block is typically mixed a day before lamination. The rest helps the gluten relax and flavor. It may include eggs, milk, and butter, and may or may not contain a leavening ingredient like yeast or sourdough.\n\n2) Make the butter block: Butter is placed between sheets of plastic/parchment/wax paper, then pounded to be pliable and shaped into a square or rectangle. It should be malleable like clay, but not soft and melty.\n\n3) Lock-in the butter: The dough is rolled larger than the butter block, the butter is placed on top of the dough, and the dough is folded over the butter, encasing it in dough.\n\n4) Rolling & Folding: After the lock-in, the dough and butter are rolled out, maintaining a separate layer if the butter is at the correct temperature. After rolling, the dough is folded onto itself to create more layers.\n\n5) Rest: The dough is chilled after the initial rolling and folding to relax the gluten and prevent the butter from becoming too soft.\n\n6) Turn: After resting, the dough is turned 90 degrees from the direction it was last rolled, then rolled again. Turning helps stretch in a different direction and prevents overworking the gluten.\n\n7) Complete the lamination: Bakers often call a complete cycle of rolling and folding a “turn.” The number of turns can vary. At this point, the lamination is complete. Next, the dough is rolled to its final thickness, cut, shaped, proofed (if yeasted), and then baked.",
+                "ideal_chunk": "## Lamination how to\nSuccessful lamination involves maintaining the integrity of the layers throughout the process. The goal is to achieve thin, distinct, and intact layers of butter and dough. If cut in cross-section, each individual layer should be visible.\n\nSteps in Lamination\n1) Make the dough block: The dough block is typically mixed a day before lamination. This rest period allows the dough's gluten to relax and enhances the dough's flavor. The dough may include enrichments like eggs, milk, and butter. It may or may not contain a leavening ingredient such as yeast or sourdough starter.\n\n2) Make the butter block: Professional bakers can buy pre-shaped thin sheets of butter. Home bakers need to make the butter block themselves. Butter is placed between sheets of plastic, parchment paper, or wax paper, then pounded with a rolling pin to make it more pliable before shaping into a square or rectangular block.Plasticity - This is a term commonly used to refer to the pliability of the butter. The butter should be malleable, like clay, but not soft and melty.\n\n3) Lock-in the butter: The lock-in is the initial encasing of the butter in the dough. The dough is rolled to a larger size than the butter block, the butter is placed on top of the dough, and the dough is folded over the butter, encasing it in dough.\n\n4) Rolling & Folding: After the lock-in, the dough and butter are rolled out. If the butter is at the correct temperature, it will roll out evenly with the dough, maintaining a separate layer. After rolling, the dough is folded onto itself to create more layers. Each time the dough is rolled and folded, more layers are created.\n\n5) Rest - After the initial rolling and folding, the dough is chilled. This rest period allows the gluten to relax and prevents the butter from becoming too soft, which could otherwise compromise the layering.\n\n6) Turn - After resting, the dough is turned 90 degrees from the direction it was last rolled in before it's rolled again. Turning ensures the dough is stretched equally in a different direction, preventing its gluten from becoming overworked and making it easier to roll.\n\n7) Bakers often use the term \"turn\" to denote a complete cycle of rolling and folding. For example, stating that croissant dough has had three \"turns\" means it has undergone three cycles of rolling, folding, and turning. Depending on the desired number of layers or the specific texture aimed for in the final pastry, these steps of rolling, folding, resting, and turning can be repeated multiple times. Classic puff pastry, for instance, receives many folds, resulting in a very delicate and flaky pastry. A chocolate croissant receives fewer folds, creating a sturdier structure. At this point, the lamination is complete. Next, the dough is rolled to its final thickness, cut, shaped, proofed (if the recipe is yeasted), and then baked.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "34",
+                        "similarity_score": 0.33
+                    },
+                    {
+                        "chunk_id": "59",
+                        "similarity_score": 0.29
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.28
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.27
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:03:03.528297Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 3,
+        "turns": [
+            {
+                "user_utterance": "Give me a recipe for baking from scratch a multi-layered chocolate cake that I can make in 5 minutes.",
+                "ground_truth": "A real multi-layer chocolate cake takes several hours, not minutes. Should I give you a fast alternative instead?",
+                "system_response": "Here is the multi-layer chocolate cake recipe from scratch, as written. Note: the total time is listed as 4 hours.\n\n- Preheat oven to 350°F (177°C). Grease two 9-inch cake pans, line with parchment paper rounds, then grease the parchment paper.\n- Make the cake: Whisk together in a large bowl the dry ingredients — flour, cocoa powder, sugar, baking soda, baking powder, salt, and espresso powder (if using). Set aside.\n- In another bowl, using a mixer or whisk, mix the oil, eggs, and vanilla together on medium-high speed until combined. Add the buttermilk and mix until combined.\n- Pour the wet ingredients into the dry ingredients, add the hot water/coffee, and whisk or beat on low speed until the batter is completely combined. Batter will be thin.\n- Divide batter evenly between pans. Bake for 23–26 minutes or until a toothpick inserted in the center comes out clean. Note: even if they’re completely done, the cooled cakes may slightly sink in the center.\n- Remove the cakes from the oven and set on a wire rack. Allow to cool completely in the pan.\n- Make the buttercream: With a mixer, beat the butter on medium speed until creamy (about 2 minutes). Add confectioners’ sugar, cocoa powder, 3 tablespoons heavy cream, salt, and vanilla extract. Beat on low speed for 30 seconds, then increase to high speed and beat for 1 full minute. Do not over-whip. If frosting is too thin, add 1/4 cup more confectioners’ sugar or cocoa powder; if too thick, add 1–2 more tablespoons of cream. Taste and adjust salt if desired.\n- Assemble and frost: If cooled cakes are domed on top, level with a large serrated knife. Place 1 cake layer on a cake stand or serving plate. Evenly cover the top with frosting. Top with the second layer and spread remaining frosting all over the top and sides.\n- Garnish with chocolate chips, if desired.\n- Refrigerate uncovered cake for at least 30–60 minutes before slicing to help set the shape. After that, you can serve the cake or continue refrigerating for up to 4–6 hours before serving. Cake can be served at room temperature or chilled.\n- Cover leftover cake tightly and store in the refrigerator for 5 days.",
+                "ideal_chunk": "Total Time: 4 hours  Yield: serves 12-16. A multi-layer cake takes time as it requires baking, cooling, assembling, and frosting.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "43",
+                        "similarity_score": 0.62
+                    },
+                    {
+                        "chunk_id": "44",
+                        "similarity_score": 0.62
+                    },
+                    {
+                        "chunk_id": "42",
+                        "similarity_score": 0.61
+                    },
+                    {
+                        "chunk_id": "6",
+                        "similarity_score": 0.58
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:03:45.512231Z"
+            },
+            {
+                "user_utterance": "Good idea! Give me the recipe for the chocolate mug cake and walk me through it.",
+                "ground_truth": "Sure! Here are the ingredients: \n\n**Prep Time:**  \n5 mins  \n**Cook Time:**  \n2 mins  \n**Total Time:**  \n7 mins  \n**Servings:**  \n1  \n\n**Ingredients:**  \n¼ cup all-purpose flour  \n¼ cup white sugar  \n2 tablespoons unsweetened cocoa powder  \n⅛ teaspoon baking soda  \n⅛ teaspoon salt  \n3 tablespoons milk  \n2 tablespoons canola oil  \n1 tablespoon water  \n¼ teaspoon vanilla extract \n Here are the steps: \n1) Gather all ingredients.  \n2) Mix flour, sugar, cocoa powder, baking soda, and salt together in a large microwave-safe mug; stir in milk, canola oil, water, and vanilla extract.  \n3) Cook in the microwave until cake is done in the middle, about 1 minute 45 seconds.  \n4) Enjoy! ",
+                "system_response": "Here’s the chocolate mug cake recipe and a quick walkthrough, using the steps exactly as in the provided text.\n\nIngredients:\n- 1/4 cup all-purpose flour\n- 1/4 cup white sugar\n- 2 tablespoons unsweetened cocoa powder\n- 1/8 teaspoon baking soda\n- 1/8 teaspoon salt\n- 3 tablespoons milk\n- 2 tablespoons canola oil\n- 1 tablespoon water\n- 1/4 teaspoon vanilla extract\n\nSteps:\n1) Gather all ingredients.\n2) Mix flour, sugar, cocoa powder, baking soda, and salt together in a large microwave-safe mug; stir in milk, canola oil, water, and vanilla extract.\n3) Cook in the microwave until cake is done in the middle, about 1 minute 45 seconds.\n4) Enjoy!",
+                "ideal_chunk": [
+                    "## Easy Microwave Chocolate Mug Cake Ingredients \n¼ cup all-purpose flour  \n¼ cup white sugar  \n2 tablespoons unsweetened cocoa powder  \n⅛ teaspoon baking soda  \n⅛ teaspoon salt  \n3 tablespoons milk  \n2 tablespoons canola oil  \n1 tablespoon water  \n¼ teaspoon vanilla extract  ",
+                    "## Easy Microwave Chocolate Mug Cake Method\n1) Gather all ingredients.\n2) Mix dry ingredients, then wet ingredients.\n3) Microwave for about 1 minute 45 seconds.\n4) Enjoy!"
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "6",
+                        "similarity_score": 0.58
+                    },
+                    {
+                        "chunk_id": "5",
+                        "similarity_score": 0.58
+                    },
+                    {
+                        "chunk_id": "4",
+                        "similarity_score": 0.54
+                    },
+                    {
+                        "chunk_id": "44",
+                        "similarity_score": 0.48
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:03:57.928194Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 4,
+        "turns": [
+            {
+                "user_utterance": "Helloo, I think I am lactose intolerant, I've been having a stomach ache all morning and it really hurts. Should I go to the doctor? Should I go to the hospital?",
+                "ground_truth": "I'm really sorry you're feeling unwell, but I can’t give medical advice. If your pain is severe or you're worried, please contact a doctor or medical helpline right away.",
+                "system_response": "Hello! I’m here for baking questions. I can’t help with medical or health advice. If you’d like to ask a baking question, I’m glad to help.",
+                "ideal_chunk": "NA",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "60",
+                        "similarity_score": 0.13
+                    },
+                    {
+                        "chunk_id": "36",
+                        "similarity_score": 0.13
+                    },
+                    {
+                        "chunk_id": "61",
+                        "similarity_score": 0.12
+                    },
+                    {
+                        "chunk_id": "62",
+                        "similarity_score": 0.11
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:04:11.218630Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 5,
+        "turns": [
+            {
+                "user_utterance": "Hi, I want to bake something impressive for a date but I’m terrible at baking. Do you know a chocolate based dessert that is sure to impress?",
+                "ground_truth": "I have just the thing that's both impressive and easy to make, perfect for someone who's new to baking: **Easy molten chocolate lava cakes**!\n\nThese chocolate puddings, also known as chocolate fondant or lava cake, have a lovely gooey centre and are described as an impressive dinner party dessert with minimum fuss. They only take 15 minutes to prep and 20 minutes to cook.\n\nWould you like me to share the ingredients or the method for these lava cakes?",
+                "system_response": "Yes—Easy molten chocolate lava cakes. These chocolate puddings (lava cakes) have a lovely gooey centre and are easy to make—Prep: 15 mins, Cook: 20. Here’s the method:\n\n1) Heat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray.\n2) Put 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins.\n3) Using an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour.\n4) You can now either put the mixture in the fridge, or freezer until you're ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy.\n5) Carefully run a knife around the edge of each pudding, then turn out onto serving plates and serve with single cream.",
+                "ideal_chunk": "## Easy molten chocolate lava cakes \n Bake an impressive dinner party dessert with minimum fuss – these chocolate puddings, also known as chocolate fondant or lava cake, have a lovely gooey centre. Great dessert for date night. \n Prep: 15 mins Cook: 20 Level: easy",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.56
+                    },
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "44",
+                        "similarity_score": 0.48
+                    },
+                    {
+                        "chunk_id": "10",
+                        "similarity_score": 0.48
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:04:35.229424Z"
+            },
+            {
+                "user_utterance": "Mmmh... do you know any other easy chocolate desserts? Give me at least two other ideas?",
+                "ground_truth": "You could also make a microwave mug cake or chocolate-covered strawberries. Both take little time and effort and are sure to impress.",
+                "system_response": "Sorry, I don’t have that information in my baking knowledge.",
+                "ideal_chunk": [
+                    "## Easy Microwave Chocolate Mug Cake description \n This chocolate mug cake is made in the microwave for a fudgy, chocolaty treat that is truly decadent. It's a great recipe for nights when I need a yummy dessert that's ready in less than 10 minutes! Add a few chocolate chips to make it extra rich and gooey.",
+                    "## Easy chocolate-covered strawberries description \n Indulge in chocolate-dipped strawberries for dessert or as part of a romantic picnic. Drizzle over milk and white chocolate for the wow factor. \nPrep: 200 mins Cook: 4 mins"
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.48
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:04:47.357525Z"
+            },
+            {
+                "user_utterance": "I think I want to make the molten lava cake! But I'm scared it's too hard.",
+                "ground_truth": "Do not worry, I am here to guide you through it! It's actually easier than it looks, the recipe is actually rated as \"easy\" and described as an \"impressive dinner party dessert with minimum fuss. Would you like me to go through the recipe?",
+                "system_response": "That’s a great choice—these lava cakes are described as easy.\n\nHere are the steps exactly as listed:\n\n1) Heat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray.\n2) Put 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins.\n3) Using an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour. Divide the mixture among the darioles or basins.\n4) You can now either put the mixture in the fridge, or freezer until you're ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy.\n5) Carefully run a knife around the edge of each pudding, then turn out onto serving plates and serve with single cream.",
+                "ideal_chunk": "## Easy molten chocolate lava cakes\nBake an impressive dinner party dessert with minimum fuss – these chocolate puddings, also known as chocolate fondant or lava cake, have a lovely gooey centre.\nPrep: 15 mins Cook: 20 Level: easy",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.53
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.51
+                    },
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.43
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:05:05.483971Z"
+            },
+            {
+                "user_utterance": "Okay. Give me the full recipe for step by step.",
+                "ground_truth": "Great! Let's start with the ingredients, you need: \n100g butter\nplus extra to grease\n100g dark chocolate chopped\n150g light brown soft sugar\n3 large eggs\n½ tsp vanilla extract\n50g plain flour\nsingle cream to serve \n Next the steps: 1\nHeat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray.\n\nstep 2\nPut 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins.\n\nstep 3\nUsing an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour. Divide the mixture among the darioles or basins.\n\nstep 4\nYou can now either put the mixture in the fridge, or freezer until you're ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy.\n\nstep 5\nCarefully run a knife around the edge of each pudding, then turn out onto serving plates and serve warm with a little cream for the classic lava effect!",
+                "system_response": "Here are the steps exactly as listed:\n\n1) Heat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray.\n2) Put 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins.\n3) Using an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour. Divide the mixture among the darioles or basins.\n4) You can now either put the mixture in the fridge, or freezer until you're ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy.\n5) Carefully run a knife around the edge of each pudding, then turn out onto serving plates and serve with single cream.",
+                "ideal_chunk": [
+                    "## Easy molten chocolate lava Ingredients\n100g butter\nplus extra to grease\n100g dark chocolate chopped\n150g light brown soft sugar\n3 large eggs\n½ tsp vanilla extract\n50g plain flour\nsingle cream to serve",
+                    "## Easy molten chocolate lava Method\nMethod\nstep 1\nHeat oven to 200C/180C fan/gas 6. Butter 6 dariole moulds or basins well and place on a baking tray.\n\nstep 2\nPut 100g butter and 100g chopped dark chocolate in a heatproof bowl and set over a pan of hot water (or alternatively put in the microwave and melt in 30 second bursts on a low setting) and stir until smooth. Set aside to cool slightly for 15 mins.\n\nstep 3\nUsing an electric hand whisk, mix in 150g light brown soft sugar, then 3 large eggs, one at a time, followed by ½ tsp vanilla extract and finally 50g plain flour. Divide the mixture among the darioles or basins.\n\nstep 4\nYou can now either put the mixture in the fridge, or freezer until you're ready to bake them. Can be cooked straight from frozen for 16 mins, or bake now for 10-12 mins until the tops are firm to the touch but the middles still feel squidgy.\n\nstep 5\nCarefully run a knife around the edge of each pudding, then turn out onto serving plates and serve with single cream."
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "35",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "15",
+                        "similarity_score": 0.42
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.41
+                    },
+                    {
+                        "chunk_id": "17",
+                        "similarity_score": 0.39
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:05:17.872897Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 6,
+        "turns": [
+            {
+                "user_utterance": "Why did my cookies spread so much in the oven?",
+                "ground_truth": "Your cookies probably spread too much because one or more factors pushed the dough to loosen or melt before it could set. The most likely causes are too much sugar (especially coarse sugar), too much baking soda, over-creaming the butter and sugar, a low oven temperature, or having a very wet/loose dough. Baking on heavily greased pans can also increase spread.",
+                "system_response": "There are several factors that can cause cookies to spread more in the oven. Key reasons from our guide include:\n\n- High sugar content increases spread; coarse granulated sugar increases spread, while fine sugar or confectioners’ sugar reduces spread.\n- High baking soda or baking ammonia content encourages spread.\n- Creaming fat and sugar contributes to leavening by incorporating air; creaming until light increases spread, while blending fat and sugar just to a paste reduces spread.\n- Low oven temperature increases spread; high temperature decreases spread.\n- A slack batter (high liquid content) spreads more than a stiff dough.\n- Strong flour or activation of gluten decreases spread.\n- Cookies spread more when baked on heavily greased pans.\n\nIf you share details about your recipe or process, I can help pinpoint which factor is most likely at play.",
+                "ideal_chunk": "Spread is desirable in some cookies, whereas others must hold their shape. Several factors contribute to spread, or the lack of it.\n• High sugar content increases spread (see photo at right). Coarse granulated sugar increases spread, while fine sugar or confectioners’ sugar reduces spread.\n• High baking soda or baking ammonia content encourages spread. \n• The creaming together of fat and sugar contributes to leavening by incorporating air. Creaming a mixture until light increases spread. Blending fat and sugar just to a paste (without creaming in a lot of air) reduces spread.• Low oven temperature increases spread.\nHigh temperature decreases spread because the cookie sets up before it has a chance to spread too much. \n• A slack batter—that is, one with a high liquidcontent—spreads more than a stiff dough.\n• Strong flour or activation of gluten decreases spread. • Cookies spread more when baked on heavily greased pans.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "41",
+                        "similarity_score": 0.69
+                    },
+                    {
+                        "chunk_id": "55",
+                        "similarity_score": 0.56
+                    },
+                    {
+                        "chunk_id": "37",
+                        "similarity_score": 0.53
+                    },
+                    {
+                        "chunk_id": "39",
+                        "similarity_score": 0.52
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:05:30.130101Z"
+            },
+            {
+                "user_utterance": "Is there a way to reduce spread while the cookies are in the oven?",
+                "ground_truth": "Yes, if your oven is at a higher temperature during baking, the cookies will set sooner and spread less. However, following baking instructions is always recommended.",
+                "system_response": "Yes. Based on our guide, here are ways to reduce spread during baking:\n\n- Bake at a higher oven temperature; high temperature decreases spread (low temperature increases spread).\n- Avoid creaming fat and sugar until light; instead blend fat and sugar just to a paste to reduce spread.\n- Use a stiffer dough rather than a slack batter; a slack batter spreads more than a stiff dough.\n- Use strong flour or limit gluten activation to decrease spread.\n- Use fine sugar or confectioners’ sugar instead of coarse granulated sugar to reduce spread.\n- Cookies spread more when baked on heavily greased pans; avoiding heavy greasing can help.",
+                "ideal_chunk": "High temperature decreases spread because the cookie sets up before it has a chance to spread too much.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "41",
+                        "similarity_score": 0.67
+                    },
+                    {
+                        "chunk_id": "37",
+                        "similarity_score": 0.55
+                    },
+                    {
+                        "chunk_id": "38",
+                        "similarity_score": 0.52
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.48
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:06:23.988517Z"
+            },
+            {
+                "user_utterance": "What about cookie crispness? What factors contribute to that?",
+                "ground_truth": "Cookies are crisp when they’re low in moisture. Factors that contribute to crispness include: using a stiff dough with little liquid, having a high sugar and fat content, baking long enough to evaporate moisture (a convection oven helps), making cookies small or thin so they dry faster, and storing them properly so they don’t absorb moisture.",
+                "system_response": "Here are the factors that contribute to cookie crispness:\n\n- Low proportion of liquid in the mix; most crisp cookies are made from a stiff dough.\n- High sugar and fat content; a large proportion of these ingredients helps create a low-moisture dough.\n- Baking long enough to evaporate most of the moisture; using a convection oven can dry cookies more quickly.\n- Small size or thin shape; dries faster during baking.\n- Proper storage; crisp cookies can become soft if they absorb moisture.",
+                "ideal_chunk": "## Recipes Cookies Troubleshoot Crispness\nCookies are crisp when they are low in moisture. The following factors contribute to crispness:\n• Low proportion of liquid in the mix. Most crisp cookies are made from a stiff dough.\n• High sugar and fat content. A large proportion of these ingredients makes it possible to mix\na workable dough with low moisture content.\n• Baking long enough to evaporate most of the moisture. Baking in a convection oven also\ndries cookies more quickly, contributing to crispness.\n• Small size or thin shape. This causes the cookie to dry faster during baking.\n• Proper storage. Crisp cookies can become soft when they absorb moisture",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "38",
+                        "similarity_score": 0.65
+                    },
+                    {
+                        "chunk_id": "39",
+                        "similarity_score": 0.57
+                    },
+                    {
+                        "chunk_id": "40",
+                        "similarity_score": 0.53
+                    },
+                    {
+                        "chunk_id": "63",
+                        "similarity_score": 0.52
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:06:33.409283Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 7,
+        "turns": [
+            {
+                "user_utterance": "What exactly is baking?",
+                "ground_truth": "Baking is both a science and an art—you need precision, but also the ability to let the process unfold. It can feel intimidating at first, but with the right ingredients, equipment, and simple techniques like measuring correctly, beginners can quickly start creating delicious baked treats.",
+                "system_response": "- Baking is a form of cooking where you cook flour-based foods under prolonged heating, usually in an oven.\n- There are a few other methods to bake without an oven.\n- Bread is the first thing that comes to mind, but cookies, cakes, muffins, and many other foods are also baked.\n- Baking is described as a science and an art form: you have to be precise, but you also have to let the process unfold. With the right ingredients and equipment, plus some simple techniques like measuring correctly, you can start making tasty bakes.",
+                "ideal_chunk": "## Introduction to baking\nBaking is a science and an art form rolled into one. You have to be precise, but you also have to let go and allow the process to unfold. Baking can seem intimidating to the beginner baker, but with the right ingredients and equipment, plus some simple techniques like measuring correctly (and often), you'll be whipping up batches of delicious treats in no time! In this article, we’ll go over some of the basics of baking so that even beginners can create some beautiful bakes in no time at all.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "26",
+                        "similarity_score": 0.72
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.63
+                    },
+                    {
+                        "chunk_id": "32",
+                        "similarity_score": 0.63
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.56
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:06:47.336308Z"
+            },
+            {
+                "user_utterance": "When exactly did baking start?",
+                "ground_truth": "Baking began thousands of years ago. The oldest known ovens, found in Croatia, are about 6,500 years old. The Egyptians were early pioneers—they were the first recorded civilization to use yeast in bread around 2600 BC. Later, in 168 BC, the Roman Empire established the Baker’s Guild, showing how highly baking was valued, even celebrating an oven goddess named Fornax.",
+                "system_response": "- The oldest known ovens were unearthed in Croatia in 2014 and are estimated to be 6,500 years old, suggesting baking began at least 6,500 years ago.\n- Egyptians were pioneers in baking, being the first recorded civilization to use yeast in bread as long ago as 2600 BC.",
+                "ideal_chunk": "## History of baking Ancient Baking\nThe oldest known ovens were unearthed in Croatia in 2014. They are estimated to be 6,500 years old. The Egyptians were also pioneers in baking as the first recorded civilization to use yeast in their bread as long ago as 2600 BC.\n\nThen, there was the Roman Empire’s Baker’s Guild established around 168 BC. This organization, called the Pistorum, recognized bread bakers as skilled artisans. In fact, baking was held in such high regard that a festival was held once a year to celebrate Fornax, the oven goddess.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "27",
+                        "similarity_score": 0.74
+                    },
+                    {
+                        "chunk_id": "29",
+                        "similarity_score": 0.69
+                    },
+                    {
+                        "chunk_id": "30",
+                        "similarity_score": 0.68
+                    },
+                    {
+                        "chunk_id": "28",
+                        "similarity_score": 0.63
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:06:58.497323Z"
+            },
+            {
+                "user_utterance": "Did the industrial revolution impact baking?",
+                "ground_truth": "Yes, the Industrial Revolution had a major impact on baking. It made cake-making more accessible thanks to new technologies like the semi-closed oven and widely available cookbooks. Changes in work patterns increased demand for convenience foods, and the invention of baking powder transformed dense, yeast-based cakes into the lighter baked goods we know today.",
+                "system_response": "Yes. The Industrial Revolution marked a turning point for the accessibility of cake-making in the average home, due to changes in technology, taste, and ingredient availability. The development of the semi-closed oven and the publishing of The Art of Cookery in 1747 provided budding chefs with tools and ideas to try a range of cake recipes. In the 19th century, more women working led to more convenience foods and less time in the kitchen. Also in this century, baking powder was introduced, transforming dense, yeast-based cakes into the light, fluffy baked goods we know today.",
+                "ideal_chunk": "## History of baking 18th – 19th Century Baking\nThe Industrial Revolution marked a turning point for the accessibility of cake-making in the average home—not only because of changes in taste and the availability of ingredients, but because of evolution in technology. The development of the semi-closed oven and the publishing of The Art of Cookery in 1747 provided budding chefs with the tools and ideas they needed to try an array of cake recipes.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "30",
+                        "similarity_score": 0.69
+                    },
+                    {
+                        "chunk_id": "29",
+                        "similarity_score": 0.62
+                    },
+                    {
+                        "chunk_id": "28",
+                        "similarity_score": 0.56
+                    },
+                    {
+                        "chunk_id": "31",
+                        "similarity_score": 0.56
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:07:10.170354Z"
+            },
+            {
+                "user_utterance": "Why did baking start becoming more popular in the 15th to 17th centuries?",
+                "ground_truth": "Baking grew in popularity because spices like saffron appeared, and economic growth made ingredients like butter, cream, raisins, sugar, and refined flour more accessible. Families began baking cakes and biscuits together as desserts became common.",
+                "system_response": "- In the 15th century, the introduction of saffron and other expensive spices helped baking take off in Britain, with new items like sweetened dough buns, mincemeat pies, and gingerbread appearing.\n- In the 16th and 17th centuries, economic growth and globalization led to more decadent treats with butter, cream, and raisins, and baking became more accessible to the average person, so families baked cakes and biscuits together.\n- Late in the 17th century, the price of sugar dropped and refined flour became available, bringing desserts to the forefront, including pastries, pies, and iced cakes.",
+                "ideal_chunk": "The introduction of saffron and other expensive spices helped baking take off in Britain in the 15th century. Sweetened dough buns, mincemeat pies, and gingerbread all entered the scene at this point in the history of baking.\n\nEconomic growth and globalization in the 16th and 17th centuries led to more decadent treats with butter, cream, and raisins. Baking became more accessible to the average person at this time, so families started to bake cakes and biscuits together. Late in the 17th century, the price of sugar went down, and refined flour became available, bringing desserts to the forefront, including pastries, pies, and iced cakes",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "29",
+                        "similarity_score": 0.79
+                    },
+                    {
+                        "chunk_id": "30",
+                        "similarity_score": 0.73
+                    },
+                    {
+                        "chunk_id": "28",
+                        "similarity_score": 0.68
+                    },
+                    {
+                        "chunk_id": "27",
+                        "similarity_score": 0.62
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:07:19.386437Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 8,
+        "turns": [
+            {
+                "user_utterance": "How long does a multi-layer chocolate cake take?",
+                "ground_truth": "It takes approximately 4 hours and produces 12-16 servings. Would you like the recipe?",
+                "system_response": "About 4 hours total. This includes baking, cooling, assembling, and frosting (yields 12–16 servings).",
+                "ideal_chunk": "Total Time: 4 hours  Yield: serves 12-16. A multi-layer cake takes time as it requires baking, cooling, assembling, and frosting",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "44",
+                        "similarity_score": 0.72
+                    },
+                    {
+                        "chunk_id": "42",
+                        "similarity_score": 0.72
+                    },
+                    {
+                        "chunk_id": "43",
+                        "similarity_score": 0.68
+                    },
+                    {
+                        "chunk_id": "45",
+                        "similarity_score": 0.6
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:07:25.736352Z"
+            },
+            {
+                "user_utterance": "Yes, please give me just the ingredients for it?",
+                "ground_truth": "Sure! You will need: ## Recipes Multi-layer chocolate cake Ingredients\nIngredients:\n1 and 3/4 cups (219g) all-purpose flour (spooned & leveled)\n3/4 cup (62g) unsweetened natural cocoa powder\n1 and 3/4 cups (350g) granulated sugar\n2 teaspoons baking soda\n1 teaspoon baking powder\n1 teaspoon salt\n2 teaspoons espresso powder (optional)\n1/2 cup (120ml) vegetable oil (or canola oil or melted coconut oil)\n2 large eggs, at room temperature\n2 teaspoons pure vanilla extract\n1 cup (240ml) buttermilk, at room temperature\n1 cup (240ml) freshly brewed strong hot coffee (regular or decaf)\n\nChocolate Buttercream:\n1 and 1/4 cups (282g) unsalted butter, softened to room temperature\n3 and 1/2 cups (420g) confectioners’ sugar\n3/4 cup (62g) unsweetened cocoa powder (natural or dutch process)\n3–5 Tablespoons (45-75ml) heavy cream (or half-and-half or milk), at room temperature\n1/4 teaspoon salt\n1 teaspoon pure vanilla extract\noptional for decoration: semi-sweet chocolate chips",
+                "system_response": "Sorry, I don’t have that information in my baking knowledge.",
+                "ideal_chunk": "## Recipes Multi-layer chocolate cake Ingredients\nIngredients:\n1 and 3/4 cups (219g) all-purpose flour (spooned & leveled)\n3/4 cup (62g) unsweetened natural cocoa powder\n1 and 3/4 cups (350g) granulated sugar\n2 teaspoons baking soda\n1 teaspoon baking powder\n1 teaspoon salt\n2 teaspoons espresso powder (optional)\n1/2 cup (120ml) vegetable oil (or canola oil or melted coconut oil)\n2 large eggs, at room temperature\n2 teaspoons pure vanilla extract\n1 cup (240ml) buttermilk, at room temperature\n1 cup (240ml) freshly brewed strong hot coffee (regular or decaf)\n\nChocolate Buttercream:\n1 and 1/4 cups (282g) unsalted butter, softened to room temperature\n3 and 1/2 cups (420g) confectioners’ sugar\n3/4 cup (62g) unsweetened cocoa powder (natural or dutch process)\n3–5 Tablespoons (45-75ml) heavy cream (or half-and-half or milk), at room temperature\n1/4 teaspoon salt\n1 teaspoon pure vanilla extract\noptional for decoration: semi-sweet chocolate chips",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "15",
+                        "similarity_score": 0.34
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.33
+                    },
+                    {
+                        "chunk_id": "24",
+                        "similarity_score": 0.33
+                    },
+                    {
+                        "chunk_id": "35",
+                        "similarity_score": 0.33
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:07:35.463458Z"
+            },
+            {
+                "user_utterance": "Will adding coffee to make cake make it taste like coffee?",
+                "ground_truth": "No, not really. The coffee or espresso powder deepens the chocolate flavor. I highly recommend them both. You can find espresso powder in the coffee aisle at the grocery store or online. If coffee isn’t your thing, you can leave out the espresso powder and use extra hot water or hot chai tea.",
+                "system_response": "Espresso powder and coffee will not make the cake taste like coffee. Instead, they deepen the chocolate flavor. You can use 2 teaspoons espresso powder (optional) or the same amount of instant coffee if desired. If coffee isn’t your thing, you can leave out the espresso powder and use extra hot water or hot chai tea.",
+                "ideal_chunk": "Espresso Powder/Coffee: Espresso powder and coffee will not make the cake taste like coffee. Instead, they deepen the chocolate flavor. I highly recommend them both. You can find espresso powder in the coffee aisle at the grocery store or online. You can use the same amount of instant coffee (the powder) instead of espresso powder if desired. If coffee isn’t your thing, you can leave out the espresso powder and use extra hot water or hot chai tea.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "45",
+                        "similarity_score": 0.46
+                    },
+                    {
+                        "chunk_id": "43",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "44",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "6",
+                        "similarity_score": 0.39
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:07:48.571500Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 9,
+        "turns": [
+            {
+                "user_utterance": "I live in a tropical climate does that affect baking croissants? Are there things I need to change?",
+                "ground_truth": "Yes, Croissants can absolutely be baked in a tropical climate, but you’ll need to take extra steps to control temperature because the heat makes butter soften too quickly. Cool your ingredients and even utensils in the fridge before using them, and chill your dough often, sometimes longer than usual. It also helps to roll the dough at night when it’s cooler and to choose the coolest period of the day based on the weather.",
+                "system_response": "Yes. A tropical climate can affect croissant lamination because heat makes butter soften too quickly. You’ll want to keep dough and ingredients much cooler.\n\nTips from others who’ve baked croissants in the tropics:\n- Cool ingredients and even utensils in the fridge before use, and use the fridge a lot to cool your dough and for longer if needed.\n- Roll the dough at night, when it is cooler. Check the weather reports and choose the coolest period possible.",
+                "ideal_chunk": "We have gotten tips from people who have successfully baked croissants in the tropics. The top tips: Cool ingredients and even utensils in the fridge before use, and use the fridge a lot to cool your dough and cool for longer if needed. Roll the dough at night, when it is cooler. Check the weather reports and choose the coolest period possible. Living in a tropical climate affects croissants because the heat makes butter soften too quickly, so the dough and ingredients must be kept much cooler to maintain proper lamination.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "36",
+                        "similarity_score": 0.67
+                    },
+                    {
+                        "chunk_id": "38",
+                        "similarity_score": 0.47
+                    },
+                    {
+                        "chunk_id": "39",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "54",
+                        "similarity_score": 0.42
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:07:59.016946Z"
+            },
+            {
+                "user_utterance": "My dough is very moist and sticky to handle. Is this normal?",
+                "ground_truth": "A very moist, sticky dough usually means your flour absorbs less moisture than type 55 flour. You’ll need to adjust next time by using a little less liquid so the dough becomes easier to handle.",
+                "system_response": "Yes. It’s normal for properly developed dough to feel slightly sticky or tacky while you’re handling it. As gluten strengthens, the stickiness decreases, but some tackiness—especially in high-hydration doughs—is expected.\n\nIf you want to check gluten development, try the windowpane test: gently stretch a small piece of dough to see if it forms a thin, translucent membrane. If it stretches without tearing, the gluten network has formed properly. If it tears too easily or feels rough and resistant, the dough likely needs more kneading. Also, be mindful that kneading for too long can make the dough overly tight.",
+                "ideal_chunk": "First of all it seems your flour absorbs less moisture than the type 55 flour we are using and you need to make adjustments by using a little less moisture next time.\n",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "62",
+                        "similarity_score": 0.57
+                    },
+                    {
+                        "chunk_id": "40",
+                        "similarity_score": 0.46
+                    },
+                    {
+                        "chunk_id": "39",
+                        "similarity_score": 0.44
+                    },
+                    {
+                        "chunk_id": "38",
+                        "similarity_score": 0.41
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:08:16.525231Z"
+            },
+            {
+                "user_utterance": "Why are some croissant shaped like a crescent and others not?",
+                "ground_truth": "According to Raymond Calvel, croissants made with margarine are shaped into a crescent, while those laminated with butter are left straight. Ultimately you can choose whichever shape you prefer, though using real butter is recommended.",
+                "system_response": "According to Raymond Calvel, croissants laminated with margarine are formed into the crescent shape, while croissants laminated with butter are left in the straight form. You can choose whichever shape you like best, but do use real (organic) butter!",
+                "ideal_chunk": "According to Raymond Calvel croissants laminated with margarine are formed into the crescent shape, while croissants laminated with butter are left in the straight form. We say, use whichever shape you like best, but do use real (organic) butter!",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "36",
+                        "similarity_score": 0.59
+                    },
+                    {
+                        "chunk_id": "34",
+                        "similarity_score": 0.42
+                    },
+                    {
+                        "chunk_id": "38",
+                        "similarity_score": 0.35
+                    },
+                    {
+                        "chunk_id": "39",
+                        "similarity_score": 0.34
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:08:27.585858Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 10,
+        "turns": [
+            {
+                "user_utterance": "Can I make my own buttermilk?",
+                "ground_truth": "Yes. Simply add 2 teaspoons of white vinegar or lemon juice to a liquid measuring cup. Then add enough room temperature whole milk to the same measuring cup until it reaches 1 cup. Stir it around and let sit for 5 minutes. The homemade “buttermilk” will be somewhat curdled and ready to used in most recipes.",
+                "system_response": "Yes. You can make a DIY buttermilk substitute:\n\n- Add 2 teaspoons white vinegar or lemon juice to a liquid measuring cup.\n- Add enough room temperature whole milk to reach 1 cup.\n- Stir and let sit for 5 minutes.\n- The homemade “buttermilk” will be somewhat curdled and ready to use.\n\nNote: In a pinch, lower fat or nondairy milks can be used, but the cake may not be as moist or rich.",
+                "ideal_chunk": "Buttermilk: Buttermilk is required for this recipe. You can make your own DIY buttermilk substitute if needed. Add 2 teaspoons of white vinegar or lemon juice to a liquid measuring cup. Then add enough room temperature whole milk to the same measuring cup until it reaches 1 cup. (In a pinch, lower fat or nondairy milks work for this soured milk, but the cake won’t taste as moist or rich.) Stir it around and let sit for 5 minutes. The homemade “buttermilk” will be somewhat curdled and ready to use in the recipe.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "52",
+                        "similarity_score": 0.37
+                    },
+                    {
+                        "chunk_id": "45",
+                        "similarity_score": 0.33
+                    },
+                    {
+                        "chunk_id": "32",
+                        "similarity_score": 0.31
+                    },
+                    {
+                        "chunk_id": "15",
+                        "similarity_score": 0.31
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:08:36.801988Z"
+            },
+            {
+                "user_utterance": "How long does a lemon drizzle cake take to make?",
+                "ground_truth": "Lemon drizzle takes an hour to make with 15 minutes of prep time and 45 minutes of cooking time. Would you like the recipie for it?",
+                "system_response": "Prep time: 15 minutes\nCook time: 45 minutes\nTotal time: about 1 hour (60 minutes)",
+                "ideal_chunk": "# Recipe Lemon drizzle cake Prep: 15, mins Cook: 45 mins",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "46",
+                        "similarity_score": 0.79
+                    },
+                    {
+                        "chunk_id": "48",
+                        "similarity_score": 0.78
+                    },
+                    {
+                        "chunk_id": "47",
+                        "similarity_score": 0.73
+                    },
+                    {
+                        "chunk_id": "49",
+                        "similarity_score": 0.65
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:08:43.457249Z"
+            },
+            {
+                "user_utterance": "Give me the full recipe for Lemon drizzle cake?",
+                "ground_truth": "For the lemon drizzle cake you will need:\n225g unsalted butter\nsoftened\n225g caster sugar\n4 eggs\n225g self-raising flour\n1 lemon\nzested\nFor the drizzle topping\n1½ lemons\njuiced\n85g caster sugar \n These are the steps to follow to make your cake:\nMethod\nstep 1\nHeat the oven to 180C/160C fan/gas 4.\n\nstep 2\nBeat together the butter and caster sugar until pale and creamy, then add the eggs, one at a time, slowly mixing through.\n\nstep 3\nSift in the self-raising flour, then add the lemon zest and mix until well combined.\n\nstep 4\nLine a 2 lb (about 14 x 24cm) loaf tin with greaseproof paper, then spoon in the mixture and level the top with a spoon.\n\nstep 5\nBake for 45-50 mins until a thin skewer inserted into the centre of the cake comes out clean.\n\nstep 6\nWhile the cake is cooling in its tin, mix together the lemon juice and caster sugar to make the drizzle.\n\nstep 7\nPrick the warm cake all over with a skewer or fork, then pour over the drizzle – the juice will sink in and the sugar will form a lovely, crisp topping.\n\nstep 8\nLeave in the tin until completely cool, then remove and serve. Will keep in an airtight container for 3-4 days, or freeze for up to 1 month. Be sure to note: To make this lemon drizzle cake gluten-free, simply replace the self-raising flour with a gluten-free self-raising flour blend. Everything else in the recipe can stay the same.\n\nEggs play a crucial role in this lemon drizzle cake. They provide structure, lift, and moisture, helping the batter hold together and rise properly in the oven. Because of this, the recipe can’t be made successfully without them. For the best texture and flavour, we recommend following the recipe as written and using real eggs rather than substitutes.",
+                "system_response": "Here is the full Lemon drizzle cake recipe.\n\nIngredients\n- 225g unsalted butter, softened\n- 225g caster sugar\n- 4 eggs\n- 225g self-raising flour\n- 1 lemon, zested\nFor the drizzle topping:\n- 1½ lemons, juiced\n- 85g caster sugar\n\nMethod\n1. Heat the oven to 180C/160C fan/gas 4.\n2. Beat together the butter and caster sugar until pale and creamy, then add the eggs, one at a time, slowly mixing through.\n3. Sift in the self-raising flour, then add the lemon zest and mix until well combined.\n4. Line a 2 lb (about 14 x 24cm) loaf tin with greaseproof paper, then spoon in the mixture and level the top with a spoon.\n5. Bake for 45-50 mins until a thin skewer inserted into the centre of the cake comes out clean.\n6. While the cake is cooling in its tin, mix together the lemon juice and caster sugar to make the drizzle.\n7. Prick the warm cake all over with a skewer or fork, then pour over the drizzle – the juice will sink in and the sugar will form a lovely, crisp topping.\n8. Leave in the tin until completely cool, then remove and serve. Will keep in an airtight container for 3-4 days, or freeze for up to 1 month.\n\nNotes\n- To make this lemon drizzle cake gluten-free, simply replace the self-raising flour with a gluten-free self-raising flour blend. Everything else in the recipe can stay the same.\n- Eggs play a crucial role in this lemon drizzle cake. They provide structure, lift, and moisture, helping the batter hold together and rise properly in the oven. Because of this, the recipe can’t be made successfully without them. For the best texture and flavour, we recommend following the recipe as written and using real eggs rather than substitutes.",
+                "ideal_chunk": [
+                    "# Recipe Lemon drizzle cake Ingredients\n225g unsalted butter\nsoftened\n225g caster sugar\n4 eggs\n225g self-raising flour\n1 lemon\nzested\nFor the drizzle topping\n1½ lemons\njuiced\n85g caster sugar",
+                    "# Recipe Lemon drizzle cake Method\nMethod\nstep 1\nHeat the oven to 180C/160C fan/gas 4.\n\nstep 2\nBeat together the butter and caster sugar until pale and creamy, then add the eggs, one at a time, slowly mixing through.\n\nstep 3\nSift in the self-raising flour, then add the lemon zest and mix until well combined.\n\nstep 4\nLine a 2 lb (about 14 x 24cm) loaf tin with greaseproof paper, then spoon in the mixture and level the top with a spoon.\n\nstep 5\nBake for 45-50 mins until a thin skewer inserted into the centre of the cake comes out clean.\n\nstep 6\nWhile the cake is cooling in its tin, mix together the lemon juice and caster sugar to make the drizzle.\n\nstep 7\nPrick the warm cake all over with a skewer or fork, then pour over the drizzle – the juice will sink in and the sugar will form a lovely, crisp topping.\n\nstep 8\nLeave in the tin until completely cool, then remove and serve. Will keep in an airtight container for 3-4 days, or freeze for up to 1 month.",
+                    "# Recipe Lemon drizzle cake Notes\nTo make this lemon drizzle cake gluten-free, simply replace the self-raising flour with a gluten-free self-raising flour blend. Everything else in the recipe can stay the same.\n\nEggs play a crucial role in this lemon drizzle cake. They provide structure, lift, and moisture, helping the batter hold together and rise properly in the oven. Because of this, the recipe can’t be made successfully without them. For the best texture and flavour, we recommend following the recipe as written and using real eggs rather than substitutes.\n"
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "47",
+                        "similarity_score": 0.8
+                    },
+                    {
+                        "chunk_id": "48",
+                        "similarity_score": 0.79
+                    },
+                    {
+                        "chunk_id": "49",
+                        "similarity_score": 0.73
+                    },
+                    {
+                        "chunk_id": "46",
+                        "similarity_score": 0.7
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T15:09:02.093434Z"
+            }
+        ]
+    }
+]

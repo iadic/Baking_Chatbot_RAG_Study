@@ -1,0 +1,1021 @@
+[
+    {
+        "dialogue_id": 1,
+        "turns": [
+            {
+                "user_utterance": "Do you know any cookie recipes? Just give me an overview of the ones you know?",
+                "ground_truth": "Yes! I have a few. You can try chewy chocolate chip cookies, or make simple 4-ingredient chewy almond cookies both are delicious and easy to prepare.",
+                "system_response": "Sure — here’s what I have in my baking knowledge base about cookies:\n\nCookie recipe in the knowledge base\n- Chewy Almond Cookies\n  - 4 ingredients, oil-free, and naturally gluten-free almond cookies\n  - Ingredients:\n    - Almond flour\n    - Granulated sugar\n    - Eggs\n    - Natural almond extract\n    - A pinch of salt\n  - Instructions (summary of steps as listed):\n    1) Preheat oven to 350°F (325°F convection). Line 1–2 baking trays with parchment.\n    2) In a large bowl, mix together eggs, sugar, and almond extract.\n    3) Add almond flour and salt; mix with a spoon or spatula.\n    4) Form into 1 tbsp dough mounds, roll into balls, and place on baking sheet 1–2\" apart. Decorate with a few sliced almonds.\n    5) Bake for 15–17 minutes, or until the tops are dry to the touch and the edges/bottom are golden brown.\n    6) Let cool on the baking sheet.\n    7) Dust with powdered sugar and store in an airtight container at room temperature for 3–5 days or in the freezer for up to 6 months. Enjoy!\n\nGeneral cookie tips and factors from the knowledge base\n- Texture and crispness:\n  - Most crisp cookies are made from a stiff dough.\n  - Crispness can be influenced by how much sugar and fat you use, how long you bake, and how you store cookies.\n  - Convection ovens dry cookies faster, contributing to crispness.\n  - Small or thin cookies dry faster during baking.\n  - Proper storage can affect whether cookies stay crisp.\n- Cookie spread and dough behavior:\n  - Spread is influenced by sugar content: high sugar increases spread; coarse sugar increases spread, while fine sugar or confectioners’ sugar reduces spread.\n  - High baking soda or baking ammonia encourages spread.\n  - Creaming fat and sugar adds air and contributes to leavening and spread; blending fat and sugar just to a paste (without creaming) reduces spread.\n  - Low oven temperature increases spread; high temperature decreases spread because the cookie sets up faster.\n  - A slack batter (more liquid) spreads more than a stiff dough.\n  - Strong flour or activation of gluten decreases spread.\n  - Cookies tend to spread more when baked on heavily greased pans.\n\nIf you’d like, I can pull out more cookie-related ideas that fit within these notes, or focus on a specific cookie texture (chewy, crisp, soft) using only the information provided.",
+                "ideal_chunk": [
+                    "# Recipe chocolate chip cookies\nDelicious chewy chocolate chip cookies that don't require chilling, and are perfectly soft, chewy and crunchy at the same time!\nPrep Time: 20minutes minutesCook Time: 24minutes minutesCooling Time: 30minutes minutesTotal Time: 1hour hour 14minutes minutes Servings: 20 cookies",
+                    "# Recipe Chewy Almond Cookies\nThese Chewy Almond Cookies are so good they are passed down for generations and leave everyone who tries them craving more! You will be amazed at how delicious this 4 ingredient, oil-free, and naturally gluten-free, almond cookie recipe is!\nPrep Time 5 minutes \nCook Time 15 minutes "
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.46
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "10",
+                        "similarity_score": 0.41
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:30:08.462005Z"
+            },
+            {
+                "user_utterance": "What ingredients do I need for chocolate chip cookies?",
+                "ground_truth": "Here are the ingredients for Delicious chewy chocolate chip cookies: Ingredients\n175 g unsalted butter\n225 g light brown soft sugar\n100 g white granulated sugar\n1 tsp vanilla extract\n1 medium egg\n1 egg yolk\n275 g plain flour\n1/2 tsp bicarbonate of soda\n1/2 tsp sea salt\n325 g chocolate chips",
+                "system_response": "Here are the ingredients for chocolate chip cookies from the knowledge base:\n\n- 175 g unsalted butter\n- 225 g light brown soft sugar\n- 100 g white granulated sugar\n- 1 tsp vanilla extract\n- 1 medium egg\n- 1 egg yolk\n- 275 g plain flour\n- 1/2 tsp bicarbonate of soda\n- 1/2 tsp sea salt\n- 325 g chocolate chips",
+                "ideal_chunk": "\"# Recipe chocolate chip cookies Ingredients\n175 g unsalted butter\n225 g light brown soft sugar\n100 g white granulated sugar\n1 tsp vanilla extract\n1 medium egg\n1 egg yolk\n275 g plain flour\n1/2 tsp bicarbonate of soda\n1/2 tsp sea salt\n325 g chocolate chips",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.63
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.57
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.52
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.44
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:30:19.632638Z"
+            },
+            {
+                "user_utterance": "What steps or the method needed to make them?",
+                "ground_truth": "Here are the steps: \nPreheat the oven to 190ºC/170ºC Fan and Line 2 Large baking trays with parchment paper.\nMelt the butter slowly until it is fully melted, leave to cool for a couple of minutes.\nOnce cooled, beat in both the light brown soft sugar and granulated sugar until they are all thoroughly combined.\nAdd the egg, egg yolk and vanilla extract and beat the mixture until the mixture becomes much lighter in colour, is smooth, and has increased in volume.\nAdd the dry ingredients (plain flour, bicarbonate of soda, and sea salt) and beat again until smooth.\nFold through the chocolate chips.\nUsing a 5cm Scoop, portion the cookies onto the trays (I did 6 per tray).\nBake the cookies in the oven for 12-13 minutes for softer chewy cookies, OR 15 minutes for soft/crunchy cookies.\nLeave the cookies on the tray for 5 minutes after they have finished baking, and then transfer to a wire rack and continue to cool! Enjoy! ",
+                "system_response": "From the knowledge base, the chocolate chip cookies method includes:\n- 1) Preheat the oven to 190°C / 170°C Fan and line 2 large baking trays with parchment paper.\n- 2) Melt the butter slowly until it is fully melted, leave to cool for a couple of minutes.\n\nThe remaining steps are not present in the knowledge base.",
+                "ideal_chunk": "# Recipe chocolate chip cookies Methods\nInstructions\nPreheat the oven to 190ºC/170ºC Fan and Line 2 Large baking trays with parchment paper.\nMelt the butter slowly until it is fully melted, leave to cool for a couple of minutes.\nOnce cooled, beat in both the light brown soft sugar and granulated sugar until they are all thoroughly combined.\nAdd the egg, egg yolk and vanilla extract and beat the mixture until the mixture becomes much lighter in colour, is smooth, and has increased in volume.\nAdd the dry ingredients (plain flour, bicarbonate of soda, and sea salt) and beat again until smooth.\nFold through the chocolate chips.\nUsing a 5cm Scoop, portion the cookies onto the trays (I did 6 per tray).\nBake the cookies in the oven for 12-13 minutes for softer chewy cookies, OR 15 minutes for soft/crunchy cookies.\nLeave the cookies on the tray for 5 minutes after they have finished baking, and then transfer to a wire rack and continue to cool! Enjoy!",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.34
+                    },
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.33
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.31
+                    },
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.31
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:30:28.429832Z"
+            },
+            {
+                "user_utterance": "Are there any troubleshoots or notes I should be aware of?",
+                "ground_truth": "Yes! When baking cookies, it helps to start checking them at the minimum baking time so they don’t overcook or burn. If you like softer cookies, take them out right at the minimum time. If you prefer them more browned with slightly crisp edges, leave them in a little longer. Once they’ve cooled, you can store them in an airtight container at room temperature for about 5 days.",
+                "system_response": "Here are the troubleshooting notes from the Cookies Troubleshoot section:\n\n- Crispness\n  - Cookies are crisp when they are low in moisture. Factors that affect crispness include the amount of sugar and fat, how long you bake, and how you store cookies.\n  - Convection ovens dry cookies faster, contributing to crispness.\n  - Small or thin cookies dry faster during baking.\n  - Proper storage can affect whether cookies stay crisp.\n\n- How to fix crispness\n  - Bake on the correct temperature. Use an oven thermometer to ensure your oven is at the exact right temperature.\n  - Measure ingredients using kitchen scales.\n\n- Spread and dough behavior\n  - Spread is influenced by sugar content: high sugar increases spread; coarse sugar increases spread, while fine sugar or confectioners’ sugar reduces spread.\n  - High baking soda or baking ammonia encourages spread.\n  - Creaming fat and sugar adds air and contributes to leavening and spread; blending fat and sugar just to a paste (without creaming) reduces spread.\n  - Low oven temperature increases spread; high temperature decreases spread because the cookie sets up faster.\n  - A slack batter (more liquid) spreads more than a stiff dough.\n  - Strong flour or activation of gluten decreases spread.\n  - Cookies tend to spread more when baked on heavily greased pans.\n\n- If you’d like, I can pull out more cookie-related ideas that fit within these notes, or focus on a specific cookie texture (chewy, crisp, soft) using only the information provided.",
+                "ideal_chunk": "# Recipe chocolate chip cookies Notes Troubleshoot\nListen to your intuition when baking. Start checking on your cookies at the minimum baking time to ensure you don’t overcook or even burn them. If you prefer soft cookies, cook only to the minimum time. If you prefer your cookies to be browned with slightly crisp edges, cook a little longer.\nStoring: In general, cooled cookies can be stored in an airtight container at room temperature for about 5 days.\n",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.27
+                    },
+                    {
+                        "chunk_id": "21",
+                        "similarity_score": 0.24
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.21
+                    },
+                    {
+                        "chunk_id": "4",
+                        "similarity_score": 0.21
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:31:01.709383Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 2,
+        "turns": [
+            {
+                "user_utterance": "Give me the full recipe, step by step, to bake an angel cake?",
+                "ground_truth": "Sure. Here are the ingredients for a perfect angel food cake bakes up tall, light, and airy. Time: 40 minutes. Total Time: 4 hours  Yield: serves 10-12 # Angel Food Cake Ingredients\nIngredients\n1 and 3/4 cups (350g) granulated sugar*\n1 cup + 2 Tablespoons (133g) cake flour (spooned & leveled)\n1/4 teaspoon salt\n12 large egg whites, at room temperature*\n1 and 1/2 teaspoons cream of tartar\n1 and 1/2 teaspoons pure vanilla extract\noptional: confectioners’ sugar for dusting, whipped cream, and berries \nInstructions\nAdjust the oven rack to the lower middle position and preheat oven to 325°F (163°C).\n\nIn a food processor or blender, pulse the sugar until fine and powdery. Remove 1 cup and set aside to use in step 3; keep the rest inside the food processor. Add the cake flour and salt to the food processor. Pulse 5-10 times until sugar/flour/salt mixture is aerated and light.\nIn a large bowl using a hand mixer or a stand mixer fitted with a whisk attachment, whip egg whites and cream of tartar together on medium-low until foamy, about 1 minute. Switch to medium-high and slowly add the 1 cup of sugar you set aside. Whip until soft peaks form, about 5-6 minutes. See photo and video above for a visual. Add the vanilla extract, then beat just until incorporated.\nIn 3 additions, slowly sift the flour mixture into the egg white mixture using a fine mesh strainer, gently folding with a rubber spatula after each addition. To avoid deflating or a dense cake, don’t add the flour mixture all at once. Sift and very slowly fold in several additions. This is important! Pour and spread batter into an ungreased 9 or 10 inch tube pan. Shimmy the pan on the counter to smooth down the surface.\n\nBake the cake until a toothpick inserted comes out clean, about 40-45 minutes. Rotate the pan halfway through baking. The cake will rise up very tall while baking. Remove from the oven, then cool the cake completely upside-down set on a wire rack, about 3 hours. (Upside-down so the bottom of the tube pan is right-side up, see photo and video above.) Once cooled, run a thin knife around the edges and gently tap the pan on the counter until the cake releases.\nIf desired, dust with confectioners’ sugar. Slice the cake with a sharp serrated knife. Regular knives can easily squish the cake. Serve with whipped cream and fresh berries.\nStore leftovers in the refrigerator for up to 5 days.",
+                "system_response": "Here is the angel food cake recipe as provided:\n\nIngredients\n- 1 and 3/4 cups (350g) granulated sugar\n- 1 cup + 2 Tablespoons (133g) cake flour\n- 1/4 teaspoon salt\n- 12 large egg whites, at room temperature\n- 1 and 1/2 teaspoons cream of tartar\n- 1 and 1/2 teaspoons pure vanilla extract\n- Optional: confectioners’ sugar for dusting, whipped cream, and berries\n\nInstructions\n1) Adjust the oven rack to the lower middle position and preheat to 325°F (163°C). In a food processor or blender, pulse the sugar until fine and powdery.\n\n2) Remove 1 cup and set aside to use in step 3; keep the rest inside the food processor. Add the cake flour and salt to the food processor. Pulse 5-10 times until sugar/flour/salt mixture is aerated and light.\n\n3) In a large bowl using a hand mixer or a stand mixer fitted with a whisk attachment, whip egg whites and cream of tartar together on medium-low until foamy, about 1 minute. Switch to medium-high and slowly add the 1 cup of sugar you set aside. Whip until soft peaks form, about 5-6 minutes. Add the vanilla extract, then beat just until incorporated.\n\n4) In 3 additions, slowly sift the flour mixture into the egg white mixture using a fine mesh strainer, gently folding with a rubber spatula after each addition. To avoid deflating or a dense cake, don’t add the flour mixture all at once. Sift and very slowly fold in several additions. This is important!\n\n5) Pour and spread batter into an ungreased 9 or 10 inch tube pan. Shimmy the pan on the counter to smooth down the surface.\n\n6) Bake the cake until a toothpick inserted comes out clean, about 40-45 minutes. Rotate the pan halfway through baking.\n\n7) The cake will rise up very tall while baking. Remove from the oven, then cool the cake completely upside-down set on a wire rack, about 3 hours. (Upside-down so the bottom of the tube pan is right-side up, see photo and video above.)\n\n8) Once cooled, run a thin knife around the edges and gently tap the pan on the counter until the cake releases. If desired, dust with confectioners’ sugar.",
+                "ideal_chunk": [
+                    "# Angel Food Cake Recipe\nUsing only 6 ingredients, this perfect angel food cake bakes up tall, light, and airy. For best results, read the recipe in full before beginning and have all your ingredients ready to go. Enjoy! Prep Time: 25 minutes  Cook Time: 40 minutes. Total Time: 4 hours  Yield: serves 10-12",
+                    "# Angel Food Cake Ingredients\nIngredients\n1 and 3/4 cups (350g) granulated sugar*\n1 cup + 2 Tablespoons (133g) cake flour (spooned & leveled)\n1/4 teaspoon salt\n12 large egg whites, at room temperature*\n1 and 1/2 teaspoons cream of tartar\n1 and 1/2 teaspoons pure vanilla extract\noptional: confectioners’ sugar for dusting, whipped cream, and berries",
+                    "# Angel Food Cake Instructions\nInstructions\nAdjust the oven rack to the lower middle position and preheat oven to 325°F (163°C).\n\nIn a food processor or blender, pulse the sugar until fine and powdery. Remove 1 cup and set aside to use in step 3; keep the rest inside the food processor. Add the cake flour and salt to the food processor. Pulse 5-10 times until sugar/flour/salt mixture is aerated and light.\nIn a large bowl using a hand mixer or a stand mixer fitted with a whisk attachment, whip egg whites and cream of tartar together on medium-low until foamy, about 1 minute. Switch to medium-high and slowly add the 1 cup of sugar you set aside. Whip until soft peaks form, about 5-6 minutes. See photo and video above for a visual. Add the vanilla extract, then beat just until incorporated.\nIn 3 additions, slowly sift the flour mixture into the egg white mixture using a fine mesh strainer, gently folding with a rubber spatula after each addition. To avoid deflating or a dense cake, don’t add the flour mixture all at once. Sift and very slowly fold in several additions. This is important! Pour and spread batter into an ungreased 9 or 10 inch tube pan. Shimmy the pan on the counter to smooth down the surface.\n\nBake the cake until a toothpick inserted comes out clean, about 40-45 minutes. Rotate the pan halfway through baking. The cake will rise up very tall while baking. Remove from the oven, then cool the cake completely upside-down set on a wire rack, about 3 hours. (Upside-down so the bottom of the tube pan is right-side up, see photo and video above.) Once cooled, run a thin knife around the edges and gently tap the pan on the counter until the cake releases.\nIf desired, dust with confectioners’ sugar. Slice the cake with a sharp serrated knife. Regular knives can easily squish the cake. Serve with whipped cream and fresh berries.\nStore leftovers in the refrigerator for up to 5 days."
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "5",
+                        "similarity_score": 0.69
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.55
+                    },
+                    {
+                        "chunk_id": "6",
+                        "similarity_score": 0.53
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.51
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:31:43.281086Z"
+            },
+            {
+                "user_utterance": "Actually I don’t think I have those ingredients. Can I make a caramel cake instead? What are the Ingredients?",
+                "ground_truth": "Yes, ofcourse! These are the ingredients for the caramel cake: \n 225g softened salted butter\nplus extra for the tins\n125g golden caster sugar\n100g light brown soft sugar\n1 tsp vanilla extract\n4 large eggs\n225g self raising flour\n2 tbsp milk\ntoffee\nchocolate or caramel pieces, to decorate\nFor the icing\n200g softened salted butter\n400g icing sugar\n(golden icing sugar if you can find it – it adds a golden colour and caramel flavour)\n70g caramel sauce\ndulce de leche or caramel spread, plus 3 tbsp to serve",
+                "system_response": "Here are the ingredients for the Easy caramel cake from the knowledge base:\n\nCake\n- 225 g softened salted butter, plus extra for the tins\n- 125 g golden caster sugar\n- 100 g light brown soft sugar\n- 1 tsp vanilla extract\n- 4 large eggs\n- 225 g self raising flour\n- 2 tbsp milk\n- toffee\n- chocolate or caramel pieces, to decorate\n\nIcing\n- 200 g softened salted butter\n- 400 g icing sugar (golden icing sugar if you can find it – it adds a golden colour and caramel flavour)\n- 70 g caramel sauce\n- dulce de leche or caramel spread, plus 3 tbsp to serve",
+                "ideal_chunk": "225g softened salted butter\nplus extra for the tins\n125g golden caster sugar\n100g light brown soft sugar\n1 tsp vanilla extract\n4 large eggs\n225g self raising flour\n2 tbsp milk\ntoffee\nchocolate or caramel pieces, to decorate\nFor the icing\n200g softened salted butter\n400g icing sugar\n(golden icing sugar if you can find it – it adds a golden colour and caramel flavour)\n70g caramel sauce\ndulce de leche or caramel spread, plus 3 tbsp to serve",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.53
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.46
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "13",
+                        "similarity_score": 0.43
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:31:55.204335Z"
+            },
+            {
+                "user_utterance": "Great! I should have all those things, tell me step by step how to make it?",
+                "ground_truth": "Here are the steps: \n1) Heat the oven to 180C/160C fan/gas 4. Butter two 20cm springform tins and line the bases with baking parchment.\n2) Beat the butter and both sugars in a bowl with an electric whisk for a few mins until lighter in colour and fluffy.\n3) Add the vanilla and the eggs, one at a time, adding a spoonful of flour and beating in between each egg.\n4) Add the remaining flour and milk.\n5) Divide the batter between the cake tins and bake for 25-30 minutes until golden, spring back when pressed, and a skewer comes out clean when inserted into the middle. Cool in the tins for a few mins, then tip out and leave to cool completely on a wire rack.\n6) Meanwhile, for the icing, put the butter and icing sugar in a bowl and whisk for a few mins until light and airy.\n7) Whisk in the caramel briefly, adding 1 tbsp of boiling water to loosen, if needed. Set aside until the sponges are completely cool before assembling, or the icing will melt.\n8) Use half the icing to sandwich the cakes together, then spread the remainder over the top, smoothing it out with a knife or the back of a spoon. Leave in a cool place until ready to serve.\n9)Drizzle with the 3 tbsp extra sauce (warm briefly in the microwave if it’s a little stiff), allowing some to drip down the sides if you like, and scatter over the toffee, chocolate or caramel pieces to serve. Edible glitter, birthday candles or sparklers, optional. ",
+                "system_response": "Here are the Easy caramel cake ingredients and the step-by-step method from the knowledge base.\n\nEasy caramel cake Ingredients\n\nCake\n- 225 g softened salted butter, plus extra for the tins\n- 125 g golden caster sugar\n- 100 g light brown soft sugar\n- 1 tsp vanilla extract\n- 4 large eggs\n- 225 g self raising flour\n- 2 tbsp milk\n- toffee\n- chocolate or caramel pieces, to decorate\n\nIcing\n- 200 g softened salted butter\n- 400 g icing sugar (golden icing sugar if you can find it – it adds a golden colour and caramel flavour)\n- 70 g caramel sauce\n- dulce de leche or caramel spread, plus 3 tbsp to serve\n\nEasy caramel cake Method\n1) Heat the oven to 180C/160C fan/gas 4. Butter two 20cm springform tins and line the bases with baking parchment.\n2) Beat the butter and both sugars in a bowl with an electric whisk for a few mins until lighter in colour and fluffy.\n3) Add the vanilla and the eggs, one at a time, adding a spoonful of flour and beating in between each egg.\n4) Add the remaining flour and milk.\n5) Divide the batter between the cake tins and bake for 25-30 minutes until golden, spring back when pressed, and a skewer comes out clean when inserted into the middle.\n6) Cool in the tins for a few mins, then tip out and leave to cool completely on a wire rack.\n7) Meanwhile, for the icing, put the butter and icing sugar in a bowl and whisk for a few mins until light and airy.\n8) Whisk in the caramel briefly, adding 1 tbsp of boiling water to loosen, if needed. Set aside until the sponges are completely cool before assembling, or the icing will melt.\n9) Use half the icing to sandwich the cakes together, then spread the remainder over the top, smoothing it out with a knife or the back of a spoon. Leave in a cool place until ready to serve.",
+                "ideal_chunk": "## Easy caramel cake Method\n1) Heat the oven to 180C/160C fan/gas 4. Butter two 20cm springform tins and line the bases with baking parchment.\n2) Beat the butter and both sugars in a bowl with an electric whisk for a few mins until lighter in colour and fluffy.\n3) Add the vanilla and the eggs, one at a time, adding a spoonful of flour and beating in between each egg.\n4) Add the remaining flour and milk.\n5) Divide the batter between the cake tins and bake for 25-30 minutes until golden, spring back when pressed, and a skewer comes out clean when inserted into the middle. Cool in the tins for a few mins, then tip out and leave to cool completely on a wire rack.\n6) Meanwhile, for the icing, put the butter and icing sugar in a bowl and whisk for a few mins until light and airy.\n7) Whisk in the caramel briefly, adding 1 tbsp of boiling water to loosen, if needed. Set aside until the sponges are completely cool before assembling, or the icing will melt.\n8) Use half the icing to sandwich the cakes together, then spread the remainder over the top, smoothing it out with a knife or the back of a spoon. Leave in a cool place until ready to serve.\n9)Drizzle with the 3 tbsp extra sauce (warm briefly in the microwave if it’s a little stiff), allowing some to drip down the sides if you like, and scatter over the toffee, chocolate or caramel pieces to serve. Edible glitter, birthday candles or sparklers, optional.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "4",
+                        "similarity_score": 0.32
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.31
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.29
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.24
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:32:27.208658Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 3,
+        "turns": [
+            {
+                "user_utterance": "Give me the ingredients to a lemon drizzle cake recipe?",
+                "ground_truth": "Here are the ingredients for a lemon drizzle cake: # Recipe Lemon drizzle cake Ingredients\n225g unsalted butter\nsoftened\n225g caster sugar\n4 eggs\n225g self-raising flour\n1 lemon\nzested\nFor the drizzle topping\n1½ lemons\njuiced\n85g caster sugar",
+                "system_response": "Lemon drizzle cake ingredients:\n\n- 225g unsalted butter, softened\n- 225g caster sugar\n- 4 eggs\n- 225g self-raising flour\n- 1 lemon, zest\nFor the drizzle topping:\n- 1½ lemons, juiced\n- 85g caster sugar",
+                "ideal_chunk": "# Recipe Lemon drizzle cake Ingredients\n225g unsalted butter\nsoftened\n225g caster sugar\n4 eggs\n225g self-raising flour\n1 lemon\nzested\nFor the drizzle topping\n1½ lemons\njuiced\n85g caster sugar",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "16",
+                        "similarity_score": 0.72
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.51
+                    },
+                    {
+                        "chunk_id": "5",
+                        "similarity_score": 0.49
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.49
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:32:34.383234Z"
+            },
+            {
+                "user_utterance": "Can I make this recipe gluten free? How?",
+                "ground_truth": "Yes, simply replace the self-raising flour with a gluten-free self-raising flour blend. Everything else in the recipe can stay the same.",
+                "system_response": "Yes. To make this lemon drizzle cake gluten-free, simply replace the self-raising flour with a gluten-free self-raising flour blend. Everything else in the recipe can stay the same. Eggs play a crucial role for structure, lift, and moisture, so the recipe can’t be made successfully without them.\n\nMethod (as written in the recipe):\n1. Heat the oven to 180C/160C fan/gas 4.\n2. Beat together the butter and caster sugar until pale and creamy, then add the eggs, one at a time, slowly mixing through.\n3. Sift in the self-raising flour, then add the lemon zest and mix until well combined.\n4. Line a 2 lb (about 14 x 24cm) loaf tin with greaseproof paper, then spoon in the mixture and level the top with a spoon.\n5. Bake for 45-50 mins until a thin skewer inserted into the centre of the cake comes out clean.\n6. While the cake is cooling in its tin, mix together the lemon juice and caster sugar to make the drizzle.\n7. Prick the warm cake all over with a skewer or fork, then pour over the drizzle – the juice will sink in and the sugar will form a lovely, crisp topping.\n8. Leave in the tin until completely cool, then remove and serve.",
+                "ideal_chunk": "To make this lemon drizzle cake gluten-free, simply replace the self-raising flour with a gluten-free self-raising flour blend. Everything else in the recipe can stay the same.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "17",
+                        "similarity_score": 0.47
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.39
+                    },
+                    {
+                        "chunk_id": "16",
+                        "similarity_score": 0.37
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:32:51.995283Z"
+            },
+            {
+                "user_utterance": "I don’t have eggs can I still make this recipe? If not, what can I make with lemon and no eggs?",
+                "ground_truth": "Unfortunately no. Eggs play a crucial role as they provide structure, life, and moisture, helping the batter hold together and rise properly in the oven. If you want I can suggest a Gluten-Free Vegan Lemon Pie recipe that is really good?",
+                "system_response": "- For the lemon drizzle cake: Eggs are essential here, and the recipe can’t be made successfully without them.\n\n- If you want a lemony option with no eggs, you can try the Gluten-Free Vegan Lemon Pie recipe from the knowledge base. It’s egg-free and uses lemon.\n\nGluten-Free Vegan Lemon Pie recipe (egg-free)\nIngredients\nPastry:\n- 30 g coconut oil\n- 75 g gluten-free flour blend (or sub rice flour, or plain all-purpose flour if not gluten-free)\n- 75 g ground almonds\n- 7 tablespoons water\n\nFor the lemon curd:\n- 530 ml plant-based milk\n- 3 tablespoons custard powder (or substitute cornflour/cornstarch or arrowroot)\n- 8 tablespoons lemon juice (to taste)\n- 6 tablespoons maple syrup (or other sweetener)\n\nCoconut whipped cream:\n- 400 g full-fat coconut milk (can)\n- 2 tablespoons maple syrup\n- ½ teaspoon vanilla extract\n\nTo decorate (optional):\n- Lemon slices\n- Toasted desiccated coconut\n\nMethod\nFor the pastry:\n- Preheat the oven to 180°C (350°F).\n- Combine all pastry ingredients in a large bowl until it forms a firm dough; add water a few tablespoons at a time.\n- Place the pastry dough into a greased pie dish (about 20.5 cm/8 inch) and press it across the bottom and up the sides.\n- Use a fork to pierce the surface of the pastry (sides too).\n- Bake in the oven for around 30 minutes, until the pastry crust is firm and golden brown.\n- Leave to cool slightly before pouring in the filling.\n\nFor the lemon curd:\n- Measure out the plant-based milk.\n- Pour the milk into a pan, leaving behind a few tablespoons in the jug.\n- Heat the milk in the pan.\n- Add the custard powder to the remaining milk in the jug and dissolve completely.\n- Once the milk in the pan is steaming, add about half of the hot milk to the bowl with the dissolved custard powder, mix well, and transfer the custard mixture to the saucepan.\n- Stir on a low heat for around 5 minutes, until thickened.\n- Add the lemon juice and maple syrup; taste and adjust if desired.\n\nFor the coconut whipped cream:\n- Keep the can of coconut milk in the fridge overnight.\n- Open the tin upside down; the coconut cream will be at the bottom—pour off the watery liquid.\n- Place the thick cream into a bowl; add maple syrup and vanilla.\n- Whip with an electric whisk until light and fluffy.\n\nTo assemble:\n- Once the pastry crust and lemon curd have cooled a little, pour the curd into the crust.\n- Leave in the fridge for up to a few hours to set.\n- When ready, top with the coconut whipped cream.\n- Decorate with lemon slices and toasted desiccated coconut if desired.\n- Tastes best when fresh, but keeps in the fridge for a few days.\n\nIf you’d like, I can help guide you step by step through this egg-free lemon option.",
+                "ideal_chunk": [
+                    "Eggs play a crucial role in this lemon drizzle cake. They provide structure, lift, and moisture, helping the batter hold together and rise properly in the oven. Because of this, the recipe can’t be made successfully without them. For the best texture and flavour, we recommend following the recipe as written and using real eggs rather than substitutes.",
+                    "# Gluten-Free Vegan Lemon Pie Recipe Ingredients\nIngredients\nFor the pastry:\n▢30 g (⅛ cup) coconut oil\n▢75 g (⅔ cup) gluten-free flour blend (or sub rice flour, or plain all-purpose flour if not gluten-free)\n▢75 g (⅔ cup) ground almonds* (almond meal)\n▢7 tablespoons water\nFor the lemon curd:\n▢530 ml (2 ¼ cups) plant-based milk** (see notes)\n▢3 tablespoons custard powder*** (or sub cornflour/cornstarch or arrowroot)\n▢8 tablespoons lemon juice to taste (approximately equals the juice of 1 lemon)\n▢6 tablespoons maple syrup to taste (or sub any other sweetener)\nFor the coconut whipped cream:\n▢400 g (14oz) tin of full-fat coconut milk\n2 tablespoons maple syrup (or sub any other sweetener)\n▢½ teaspoon vanilla extract\nTo decorate (optional):\nLemon slices\nToasted desiccated coconut"
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "17",
+                        "similarity_score": 0.49
+                    },
+                    {
+                        "chunk_id": "16",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.34
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.32
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:33:27.427636Z"
+            },
+            {
+                "user_utterance": "Okay, let's make Gluten-Free Vegan Lemon pie. I don’t have coconut milk? Will almond milk be okay?",
+                "ground_truth": "Yes, although almond will make it less creamy than oat or cashew milk.",
+                "system_response": "Yes. The Gluten-Free Vegan Lemon Pie can use almond milk as the plant-based milk.\n\nNotes from the recipe:\n- You can use any type of plant-based milk, though results vary.\n- Cashew or oat milk make the creamiest curd, while almond or coconut milk will be less creamy.\n- If you prefer a more jam-like consistency, rice milk works well.",
+                "ideal_chunk": "You can use any type of plant-based milk, though results do vary depending on which you choose: cashew or oat milk make the creamiest curd, whilst almond or coconut milk will be less creamy. If you prefer a more jam-like consistency, rice milk works well.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "17",
+                        "similarity_score": 0.67
+                    },
+                    {
+                        "chunk_id": "3",
+                        "similarity_score": 0.39
+                    },
+                    {
+                        "chunk_id": "16",
+                        "similarity_score": 0.37
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.33
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:33:39.613471Z"
+            },
+            {
+                "user_utterance": "I ran out of maple syrup, does honey work?",
+                "ground_truth": "Yes, as the recipe says any other sweetener works but keep in mind that each option has its own flavour profile, so choose one that complements the bake.",
+                "system_response": "Yes. Honey can be used as a substitute for maple syrup in most recipes. Just keep in mind that each option has its own flavour profile, so choose one that complements the bake.",
+                "ideal_chunk": "If you don’t have maple syrup on hand, feel free to use another liquid sweetener you enjoy. Honey, agave nectar, or any similar sweetener will work well in most recipes. Just keep in mind that each option has its own flavour profile, so choose one that complements the bake.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.31
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.23
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.23
+                    },
+                    {
+                        "chunk_id": "17",
+                        "similarity_score": 0.22
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:33:46.781558Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 4,
+        "turns": [
+            {
+                "user_utterance": "Explain only why my macarons crack in the oven?",
+                "ground_truth": "Macarons usually crack when the shells don’t form a proper skin before baking. Without that dry layer, steam pushes upward and breaks the surface. Excess moisture in the batter or the environment can cause the same issue.\n\nCracking can also come from mixing problems—if the batter isn’t mixed long enough or evenly, some spots rise while others stay dense. And if the meringue isn’t whipped sufficiently, the batter won’t have enough structure to rise smoothly, causing air to escape through the top and create cracks.",
+                "system_response": "- They weren’t left to dry long enough, so they didn’t form a skin. The steam then escapes from the top and cracks the shells.\n- There was too much moisture in the macaron or in the air, causing steam to rapidly escape in the oven and crack the tops.\n- The batter wasn’t mixed long enough or wasn’t mixed evenly, leading to uneven rise and cracks.\n- The meringue wasn’t beaten long enough, so it wasn’t aerated enough and the air escapes the top, causing cracking.",
+                "ideal_chunk": "Macarons where not left to dry long enough. This is one of the most common issues with macarons. If they don’t dry on top and develop a skin, the steam escapes out the top and cracks the shells.\nToo much moisture in the macaron or in the air and the steam rapidly escaped them in the oven causing them to crack on top.\nNot mixing your batter long enough, or it not being mixed evenly can cause uneven distribution of ingredients meaning some parts will rise, others will be too heavy to rise and will cause the cracks.\nNot beating your meringue long enough can cause your mixture to not be aerated enough and the macarons don’t have enough air to rise in the oven. This will cause the air to just escape the top even if they developed a skin.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.72
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.69
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.5
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:33:56.917732Z"
+            },
+            {
+                "user_utterance": "Explain how can I fix it?",
+                "ground_truth": "The best way to prevent cracked macarons is to control drying time, moisture, and mixing technique. Allow the shells to rest until the tops feel dry when you touch them. The resting time changes with the weather, since humid or cold days slow the formation of the skin. Avoid baking on very humid days because excess moisture can cause the shells to crack in the oven.\n\nPay close attention to your batter and meringue. Mix the batter until it flows smoothly in a ribbon, and whip the meringue all the way to stiff peaks so it is glossy and holds its shape. These steps help the macarons rise evenly and keep the tops from breaking.",
+                "system_response": "Here are the fixes listed in my baking guidance:\n\n- Make sure you bake at the correct temperature. Use an oven thermometer to verify the oven is at the right temperature, and measure ingredients with kitchen scales.\n\n- Wet or cold days – longer. Do not bake on high humidity days. Too much moisture in the air can cause cracking. When mixing, reach the ribbon stage. Refer to the videos and step-by-step photos for reference on how this is done and what it looks like.\n\n- Make sure the meringue is whipped until you reach stiff peaks. The meringue should have a birds beak at the end of your whisk and be thick and glossy.\n\n- How long you rest: Let your macarons rest long enough so that, when you lightly touch the tops, they’re not sticky. How long they need to rest depends on the weather and how much moisture is in the air.",
+                "ideal_chunk": "Make sure you let your macarons rest long enough so that when you lightly touch the tops, they’re not sticky. How long they need to rest depends on the weather and how much moisture is in the air. Dry or hot days – 15 minutes. Wet or cold days – longer.\nMacarons shouldn’t be baked on high humid days. Too much moisture in the air can cause a lot of issues, mainly cracking.\nMake sure when mixing your batter you mix until you reach the ribbon stage. Refer to my videos and step by step photos for reference on how this is done and what it looks like.\nMake sure meringue is whipped until you reach stiff peaks. The meringue will have a birds beak at the end of your whisk and will be thick and glossy.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "21",
+                        "similarity_score": 0.35
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.22
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.22
+                    },
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.2
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:34:32.965502Z"
+            },
+            {
+                "user_utterance": "Why are my macarons brown after baking? How can I fix it?",
+                "ground_truth": "Macarons usually turn brown when the oven temperature is higher than it should be or when there is too much sugar in the batter. Excess heat darkens the shells, and extra sugar can caramelize, which changes their colour even if the flavour is still good. \n To prevent this, check that your oven is truly at the right temperature. An oven thermometer placed inside can help you verify this. Also measure ingredients with a kitchen scale so the sugar amount is accurate. Precise measuring and correct heat control will keep the shells from browning.",
+                "system_response": "- Why it happens:\n  - Baking on too high a temperature can cause your macarons to turn brown.\n  - An excess of sugar or incorrect measurement of sugar can cause caramelization, discoloring the shells.\n\n- How to fix it (based on available guidance):\n  - Bake at the correct temperature. Use an oven thermometer to verify the oven is at the right temperature, and measure ingredients with kitchen scales.\n  - Wet or cold days – longer. Do not bake on high humidity days. When mixing, reach the ribbon stage.\n  - Make sure the meringue is whipped until you reach stiff peaks (thick and glossy, with a birds beak at the end of your whisk).\n  - How long you rest: Let your macarons rest long enough so that, when you lightly touch the tops, they’re not sticky. Rest time depends on the weather and how much moisture is in the air.\n  - There’s no risk of measuring incorrectly if you use kitchen scales.",
+                "ideal_chunk": "Why it happened\nBaking on too high a temperature can cause your macarons to turn brown.\nIncorrect measurement of sugar. If there is an excess of sugar in your macarons this can cause the sugar to caramelize, causing the shells to discolor. They’ll taste great, but won’t look as pretty. Why it happened \nHow to fix it \nMake sure you bake on the correct temperature. Using an oven thermometer that you place inside the oven can help you make sure your oven is running at the exact right temperature. Make sure you measure using kitchen scales. There’s no risk of measuring incorrectly if you use kitchen scales. This is why I stopped offering my measurements in cups. If you’re new to kitchen scales, I have a complete guide on how to use Kitchen Scales.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.73
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.67
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.46
+                    },
+                    {
+                        "chunk_id": "21",
+                        "similarity_score": 0.43
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:35:07.881500Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 5,
+        "turns": [
+            {
+                "user_utterance": "What is the art of chocolate tempering? And what are the steps to chocolate tempering?",
+                "ground_truth": "The art of chocolate tempering is the careful melting and cooling of chocolate so its cocoa butter crystals settle into a stable structure. When this happens you get chocolate that sets with a clean snap, a glossy surface, and a smooth melt. If the process is skipped or rushed the chocolate becomes dull, streaked, soft, or grainy.\n The steps follow the same principles no matter which method you choose. First the chocolate is melted to a high point so that unstable crystals disappear. Next it is cooled to a specific range that depends on whether it is dark, milk, or white. Each type has its own balance of cocoa butter, sugar, and milk solids which changes the point at which the fat forms crystals. Last the chocolate is warmed a little to reach its working temperature so it stays fluid for dipping or molding while keeping its stable structure.",
+                "system_response": "Here’s what the knowledge says about chocolate tempering:\n\n- What it is: Tempering chocolate is the controlled process of melting and cooling chocolate so that its cocoa butter crystals fall into a stable formation. When done well, the chocolate sets with a clean snap, a glossy finish, and a smooth, melt-in-the-mouth texture. The chocolate must be heated to melt unstable crystals, then cooled to a precise target range, and finally warmed slightly to working temperature. The target range depends on whether the chocolate is dark, milk, or white.\n\n- Steps to temper (as described in the text):\n  1) Melt the chocolate to a high temperature to eliminate unstable crystals.\n  2) Cool to a specific target range, which depends on whether the chocolate is dark, milk, or white.\n  3) Warm slightly to working temperature, fluid enough for dipping or molding while still retaining its stable crystal structure.\n\nNote: The text acknowledges there are different tempering methods (seeding, tabling, microwave tempering), but the core steps above are the ones provided.",
+                "ideal_chunk": [
+                    "Tempering chocolate is one of the foundational skills in confectionery work, yet it is also one of the most misunderstood. At its heart, tempering is the controlled process of melting and cooling chocolate so that its cocoa butter crystals fall into a stable formation. When executed properly, the result is chocolate that sets with a clean snap, a glossy finish, and a smooth, melt-in-the-mouth texture. When skipped—or rushed—the chocolate becomes dull, streaked, soft, or grainy.",
+                    "While methods vary—seeding, tabling, microwave tempering—the principles remain constant. Chocolate is first melted to a high temperature to eliminate unstable crystals. It is then cooled to a specific target range, which depends on whether the chocolate is dark, milk, or white. Each variety contains different ratios of cocoa butter, sugar, and milk solids, and these affect the temperatures at which the fat crystallizes. Finally, the chocolate is warmed slightly to working temperature, fluid enough for dipping or molding while still retaining its stable crystal structure."
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.46
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.38
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:35:29.371204Z"
+            },
+            {
+                "user_utterance": "Why do I have to cool it all the way down and then warm it back up? That part always seemed strange?",
+                "ground_truth": "Cooling the chocolate all the way down and then gently warming it again feels odd, but it is a necessary part of forming the right crystal structure. Heating first removes any crystals that should not be there. Cooling to a precise point encourages the stable form to appear. Warming slightly afterward ensures that only the desirable crystals stay active. This leaves you with chocolate that has strength and stability.",
+                "system_response": "Tempering is meant to shape the chocolate’s cocoa butter crystals into a stable form. You melt the chocolate to remove unstable crystals, then cool it to a precise target range (which depends on dark, milk, or white chocolate). Finally, you warm it slightly to working temperature so it’s fluid enough for dipping or molding while still retaining the stable crystal structure. The cooling-then-warming step exists to ensure that only the desirable crystals remain active, giving the finished chocolate strength and stability (and in the right conditions, a glossy finish, clean snap, and smooth melt).",
+                "ideal_chunk": "To encourage this stable crystal form, chocolate must be heated high enough to melt any existing crystals, then cooled to a very precise temperature where the correct structure can form. The idea of cooling chocolate far down and then gently warming it again may sound counterintuitive, but this step ensures that only the desirable crystals remain active, giving the finished chocolate strength and stability.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.28
+                    },
+                    {
+                        "chunk_id": "19",
+                        "similarity_score": 0.27
+                    },
+                    {
+                        "chunk_id": "21",
+                        "similarity_score": 0.27
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.24
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:35:43.311268Z"
+            },
+            {
+                "user_utterance": "Do different chocolates use the same temperatures? Explain why?",
+                "ground_truth": "Different chocolates do not use the same temperatures because each one contains its own balance of cocoa butter, sugar, and milk solids. These ingredients change the point at which the fat forms crystals. Dark chocolate needs the highest melt and working temperatures. Milk and white chocolates temper at lower ranges because their dairy content shifts the way the fat crystallizes.",
+                "system_response": "Not exactly. Different chocolates use different temperature ranges during tempering. The target range depends on whether the chocolate is dark, milk, or white. Dark chocolate often requires the highest melt and working temperatures, while milk and white chocolates temper at lower ranges. This difference is because each variety has different ratios of cocoa butter, sugar, and milk solids, which affect the temperatures at which the fat crystallizes. The cooling-then-warming step helps ensure that only the desirable crystals remain active.",
+                "ideal_chunk": [
+                    "Each variety contains different ratios of cocoa butter, sugar, and milk solids, and these affect the temperatures at which the fat crystallizes.",
+                    "Each type of chocolate responds uniquely to heat. Dark chocolate often requires the highest melt and working temperatures, while milk and white chocolates—because of their dairy content—temper at lower ranges. Paying attention to these distinctions ensures that each chocolate sets properly, with flavour and texture at their best."
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.37
+                    },
+                    {
+                        "chunk_id": "1",
+                        "similarity_score": 0.35
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:35:56.416748Z"
+            },
+            {
+                "user_utterance": "There are unmelted lumps in my chocolate now that it is cooled? How can I fix this?",
+                "ground_truth": "Lumps usually appear when the chocolate wasn’t fully melted at the beginning. Simply return it to gentle heat and stir until the remaining pieces dissolve.",
+                "system_response": "Unmelted lumps can happen as chocolate cools. Here’s how to fix it, per the guidance:\n\n- Return the bowl to gentle heat (never too high) and stir continuously until all pieces dissolve smoothly.\n\nIf the chocolate becomes thick, grainy, or pasty, it may have overheated or come into contact with moisture. In that case:\n- The chocolate can’t be re-tempered, but adding a small amount of warm liquid can transform it into a workable ganache.",
+                "ideal_chunk": "Occasionally, as chocolate cools, unmelted lumps may appear. This often means the chocolate wasn’t fully melted during the initial heating stage. Simply return the bowl to gentle heat—never too high—and stir continuously until all pieces dissolve smoothly.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.45
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.41
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.38
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:36:14.132733Z"
+            },
+            {
+                "user_utterance": "Why did my chocolate turn thick and grainy?",
+                "ground_truth": "Chocolate turns thick and grainy when it overheats or comes into contact with moisture. This grainy texture is a sign that the sugar has seized around droplets of water and formed clumps. Once this happens the chocolate cannot be re tempered, but adding a small amount of warm liquid can change it into a ganache.",
+                "system_response": "Grainy and thick chocolate is often due to seizing.\n\n- Seized chocolate: sugar tightens around water droplets and forms clumps, which results in a thick, grainy texture.\n\n- If it’s thick/grainy/pasty, it may have overheated or come into contact with moisture, and it can’t be re-tempered.\n\n- Fix: add a small amount of warm liquid to transform it into a workable ganache.",
+                "ideal_chunk": "If the chocolate becomes thick, grainy, or unexpectedly pasty, it may have overheated or come into contact with moisture. Graininess is often a sign of seized chocolate, where sugar tightens around water droplets and forms clumps. In these cases, the chocolate can't be re-tempered, but adding a small amount of warm liquid can transform it into a workable ganache.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.48
+                    },
+                    {
+                        "chunk_id": "2",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.41
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.4
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:36:30.007748Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 6,
+        "turns": [
+            {
+                "user_utterance": "I’m trying to understand how long I should knead my bread dough. How do I know when it’s ready?",
+                "ground_truth": "You’ll know your dough is sufficiently kneaded when it becomes smooth, elastic, and stretches without tearing. A good sign of readiness is when a small piece can be stretched thinly into a translucent sheet.",
+                "system_response": "The knowledge I have doesn’t give a exact kneading time. Here's how to tell when your dough is ready:\n\n- Windowpane test: Gently stretch a small piece of dough to see if it forms a thin, translucent membrane. If it does, the gluten is well-developed.\n- If it tears easily or feels rough and resistant, it likely needs more kneading.\n- Be careful not to overknead: too long kneading can make the dough tight, difficult to stretch, and tough.\n- A well-kneaded dough doesn’t have to be completely dry; it may feel slightly sticky but should handle smoothly. Some tackiness is expected, especially in high-hydration doughs.\n\nIf you’d like, I can summarize these as a quick checklist you can use while kneading.",
+                "ideal_chunk": "Dough that has been kneaded enough becomes smooth, stretchy, and elastic, able to hold its shape without tearing. One of the most reliable ways bakers evaluate this readiness is by gently stretching a small piece of dough to see whether it forms a thin, translucent membrane—a sign of well-developed gluten.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.44
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.38
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:36:50.486768Z"
+            },
+            {
+                "user_utterance": "What exactly is the windowpane test?",
+                "ground_truth": "It’s a simple check where you stretch a small piece of dough to see if it becomes thin and translucent without tearing—this shows the gluten has developed properly.",
+                "system_response": "The windowpane test is a method to check gluten development in dough.\n\n- Gently stretch a small piece of dough to see if it forms a thin, translucent membrane. This thin, “windowpane” indicates well-developed gluten.\n- If it tears easily or feels rough/resistant, the dough likely needs more kneading.\n- Be careful not to overknead: kneading for too long can make the dough tight, difficult to stretch, and tough.\n- A well-kneaded dough doesn’t have to be completely dry; it may feel slightly sticky but should handle smoothly. Some tackiness is expected, especially in high-hydration doughs.",
+                "ideal_chunk": "One of the most reliable ways bakers evaluate this readiness is by gently stretching a small piece of dough to see whether it forms a thin, translucent membrane—a sign of well-developed gluten. This check is often referred to as the “windowpane test.” When the dough stretches thinly without tearing, the gluten network has formed properly.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.18
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.12
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.12
+                    },
+                    {
+                        "chunk_id": "13",
+                        "similarity_score": 0.12
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:37:02.160162Z"
+            },
+            {
+                "user_utterance": "And what happens if I knead too much?",
+                "ground_truth": "Over-kneading makes the dough tight, stiff, and difficult to stretch, which can make shaping harder and affect the final texture.",
+                "system_response": "If you knead too much, the dough can become overly tight, difficult to stretch, and tough. This can make shaping harder and can negatively impact the crumb. Be careful not to overknead.",
+                "ideal_chunk": "kneading for too long can have the opposite effect: the dough becomes overly tight, difficult to stretch, and may feel tough or stiff. This makes shaping harder and can negatively impact the crumb.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.39
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.36
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.35
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.33
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:37:10.042523Z"
+            },
+            {
+                "user_utterance": "Okay, that makes sense. Should the dough still feel a bit sticky?",
+                "ground_truth": "Yes, properly kneaded dough can still feel slightly sticky. Some tackiness is normal, especially in wetter doughs.",
+                "system_response": "Yes. A well-kneaded dough doesn’t have to be completely dry; it may feel slightly sticky but should handle smoothly. Some tackiness is expected, especially in high-hydration doughs. If it tears easily or feels rough/resistant, it likely needs more kneading. Also, be careful not to overknead: too long kneading can make the dough tight, difficult to stretch, and tough.",
+                "ideal_chunk": "Well-kneaded dough doesn’t have to be completely dry. In fact, it’s normal for properly developed dough to feel slightly sticky while still handling smoothly. As gluten strengthens, stickiness becomes less pronounced, but some tackiness—especially in high-hydration doughs—is expected and not a sign of a problem.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.42
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.39
+                    },
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.37
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:37:24.481714Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 7,
+        "turns": [
+            {
+                "user_utterance": "Why do cookies turn golden brown in the oven? What actually causes that?",
+                "ground_truth": "Cookies turn golden because heat triggers a reaction between proteins and sugars, which creates both colour and flavour as they bake.",
+                "system_response": "Cookies turn golden brown mainly because of heat-driven browning reactions:\n\n- Maillard reaction: proteins and sugars interact under heat, producing the brown color and rich flavor.\n- Caramelization: sugars break down with heat and contribute deeper color and sweetness.\n\nBrowning is influenced by:\n- Temperature: higher heat can intensify the browning.\n- Moisture: lower moisture levels dry the surface faster, promoting browning.\n\nOther factors mentioned:\n- Composition of the dough and ingredients (e.g., sugar, fat) and baking time can affect how deeply cookies color.\n\nThis browning process is also what creates crusts in other baked goods like bread.",
+                "ideal_chunk": "One of the most important of these is the Maillard reaction, a process that takes place when proteins and sugars interact under heat. This reaction creates the rich flavour and brown colour associated with well-baked cookies.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.52
+                    },
+                    {
+                        "chunk_id": "10",
+                        "similarity_score": 0.44
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.44
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.42
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:37:39.536301Z"
+            },
+            {
+                "user_utterance": "So is it the same thing as caramelization?",
+                "ground_truth": "Caramelization contributes to browning, but it works differently. It comes from sugar breaking down under heat, while the Maillard reaction involves proteins and sugars reacting together.",
+                "system_response": "Not exactly. Browning in cookies comes from two processes:\n- Maillard reaction: proteins and sugars react under heat to produce brown color and flavor.\n- Caramelization: sugars break down with heat, adding deeper color and sweetness.\n\nSo caramelization is not the same as Maillard, though both contribute to browning. Browning is influenced by temperature, moisture, and the dough composition. Higher heat and lower moisture promote browning.",
+                "ideal_chunk": [
+                    "Caramelization also plays a part, though it works differently by breaking down sugars as they heat, adding deeper notes of sweetness and colour.",
+                    "Maillard reaction, a process that takes place when proteins and sugars interact under heat."
+                ],
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.3
+                    },
+                    {
+                        "chunk_id": "0",
+                        "similarity_score": 0.29
+                    },
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.28
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.27
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:37:51.827135Z"
+            },
+            {
+                "user_utterance": "Is there a way to increase browning if my cookies always look pale?",
+                "ground_truth": "You can increase browning in your cookies by encouraging the Maillard reaction. Higher heat creates deeper colour and stronger flavour. Lower moisture levels help as well because the surface dries faster, allowing browning to begin sooner. Changes to sugar, fat, or baking time can also influence how much colour your cookies develop in the oven.",
+                "system_response": "Yes. Browning is driven by Maillard reactions (and caramelization), and it can be influenced by temperature, moisture, and dough composition.\n\n- Higher heat can intensify browning, leading to deeper color and flavor.\n- Lower moisture levels encourage browning because the surface dries out more quickly.\n- Adjustments to ingredients such as sugar, fat, or baking time can affect how deeply a cookie colors in the oven.\n\nThese are general guidelines from the information available.",
+                "ideal_chunk": "Maillard browning is influenced by temperature, moisture, and the composition of the dough. Higher heat can intensify the reaction, which leads to deeper colour and more pronounced flavour. Lower moisture levels also encourage browning because the surface dries out more quickly, allowing the reaction to occur sooner. Adjustments to ingredients such as sugar, fat, or baking time can affect how deeply a cookie colours in the oven.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.51
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.48
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.47
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.46
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:38:07.591725Z"
+            },
+            {
+                "user_utterance": "That’s interesting. Does this reaction happen in bread too?",
+                "ground_truth": "Yes, bread develops its crust through the same browning reaction, which gives it its colour and aroma.",
+                "system_response": "Yes. This browning happens in bread too—the crust forms when proteins and sugars in the dough react under heat, creating color and flavor. It involves Maillard browning and caramelization, and browning is influenced by temperature and moisture (higher heat and lower moisture promote browning).",
+                "ideal_chunk": "This browning process extends far beyond cookies. Many baked goods, including bread, develop their crusts through the same heat-triggered reaction. The golden, aromatic crust on a loaf comes from proteins and sugars in the dough reacting together as the bread bakes, creating both colour and a complex flavour profile that signals proper development.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.41
+                    },
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.33
+                    },
+                    {
+                        "chunk_id": "9",
+                        "similarity_score": 0.32
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.29
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:38:19.471489Z"
+            }
+        ]
+    },
+    {
+        "dialogue_id": 8,
+        "turns": [
+            {
+                "user_utterance": "What is Egg Coagulation in Baking?",
+                "ground_truth": "Egg coagulation is the process where egg proteins unfold and link together as they heat, creating a structure that helps baked goods set and hold their shape.",
+                "system_response": "Egg coagulation is the process where, when eggs are heated, their proteins unfold and link together to form a network that sets the batter or dough. This network helps cakes and custards firm up and hold their shape after baking; without this protein setting, baked goods could collapse or remain liquid.",
+                "ideal_chunk": "When eggs are heated, their proteins unfold and link together, forming a network that sets the batter or dough. This process, known as coagulation, helps cakes and custards firm up and hold their shape once baked. Without this protein setting, many baked goods would collapse or remain liquid.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.58
+                    },
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.5
+                    },
+                    {
+                        "chunk_id": "12",
+                        "similarity_score": 0.4
+                    },
+                    {
+                        "chunk_id": "13",
+                        "similarity_score": 0.39
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:38:26.741622Z"
+            },
+            {
+                "user_utterance": "What is Gelatinization of Starch in Baking?",
+                "ground_truth": "Gelatinization happens when starch granules heat with moisture, swell, and eventually burst, thickening the mixture and helping baked goods develop a soft, stable structure.",
+                "system_response": "Gelatinization is how starch behaves when heated with moisture in baking. Starch granules swell as they absorb water, eventually burst, and release molecules that thicken and stabilize the mixture. This gelatinization creates the soft crumb of cakes and the structure of breads, helping them retain moisture and develop a tender interior.",
+                "ideal_chunk": "As starch granules heat in the presence of moisture, they swell and absorb water. Eventually, they burst and release molecules that thicken and stabilize the mixture. This transformation, known as gelatinization, creates the soft crumb of cakes and the structure of breads, allowing them to retain moisture and develop a tender interior.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.51
+                    },
+                    {
+                        "chunk_id": "7",
+                        "similarity_score": 0.48
+                    },
+                    {
+                        "chunk_id": "11",
+                        "similarity_score": 0.35
+                    },
+                    {
+                        "chunk_id": "13",
+                        "similarity_score": 0.35
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:38:35.752115Z"
+            },
+            {
+                "user_utterance": "Why does whipping egg whites make them so stiff?",
+                "ground_truth": "Whipping egg whites traps air and causes their proteins to stretch and unfold around the bubbles, forming a stable foam that increases greatly in volume.",
+                "system_response": "Whipping egg whites introduces air, and the proteins in the whites unfold and stretch around those tiny air bubbles. This forms a delicate but stable foam that can increase many times in volume. The more you whip, the tighter the protein network around the air becomes, making the mixture stiffer. If you whip for too long, the network becomes overly rigid, causing loss of elasticity, squeezing out moisture, and clumping, which can make it hard to fold into batters or maintain volume.",
+                "ideal_chunk": "Whipping egg whites introduces air, allowing proteins in the whites to stretch around tiny bubbles. As these proteins unfold, they create a delicate but stable foam capable of increasing many times in volume. The more the whites are whipped, the more the protein network tightens around the air.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.53
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.36
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.36
+                    },
+                    {
+                        "chunk_id": "10",
+                        "similarity_score": 0.34
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:38:44.968886Z"
+            },
+            {
+                "user_utterance": "Why does over whipping them change them?",
+                "ground_truth": "When egg whites are whipped too long, the protein network becomes too tight and rigid, pushing out moisture and causing the foam to break into clumps.",
+                "system_response": "Whipping egg whites traps air and the egg white proteins form a network around those air bubbles. The more you whip, the tighter that protein network around the air becomes, making the mixture stiffer. If beaten for too long, the network becomes overly rigid, causing loss of elasticity, squeezing out moisture, and clumping, which can make it hard to fold into batters or maintain volume.",
+                "ideal_chunk": "if beaten for too long, the network becomes overly rigid. This causes the foam to lose elasticity, squeeze out moisture, and separate into clumps, making it difficult to fold into batters or maintain volume during baking.",
+                "retrieved_context": [
+                    {
+                        "chunk_id": "22",
+                        "similarity_score": 0.54
+                    },
+                    {
+                        "chunk_id": "20",
+                        "similarity_score": 0.43
+                    },
+                    {
+                        "chunk_id": "18",
+                        "similarity_score": 0.42
+                    },
+                    {
+                        "chunk_id": "8",
+                        "similarity_score": 0.38
+                    }
+                ],
+                "meta": {
+                    "action": {
+                        "type": "generation"
+                    }
+                },
+                "timestamp": "2025-12-08T16:38:55.218525Z"
+            }
+        ]
+    }
+]
