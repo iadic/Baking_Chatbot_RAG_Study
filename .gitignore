@@ -1,6 +1,0 @@
-# Mac system files
-.DS_Store
-
-# Local databases and vector stores
-chroma_db/
-*.sqlite3
